@@ -1,14 +1,14 @@
 [{
   "pat18-theme": {
     "Title": "VHS Retro",
-    "URL": "../CSS/pat18-theme.css",
-    "Image": "../Images/pat18-theme.png",
+    "URL": "/DWLivePreviews/CSS/pat18-theme.css",
+    "Image": "/DWLivePreviews/Images/pat18-theme.png",
     "Fonts": ["Roboto", "Monoton", "Handjet"]
   },
   "pat18-extra": {
     "Title": "Simple Modules",
-    "URL": "../CSS/pat18-extra.css",
-    "Image": "../Images/pat18-extra.png",
+    "URL": "/DWLivePreviews/CSS/pat18-extra.css",
+    "Image": "/DWLivePreviews/Images/pat18-extra.png",
     "Fonts": ["Roboto", "Croissant+One"] 
   }
 }]
