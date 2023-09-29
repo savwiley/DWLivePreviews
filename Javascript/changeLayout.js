@@ -7,7 +7,7 @@ const changeLayout = (() => {
 
   /* call json data */
   async function populate() {
-    const request = new Request('../Javascript/layouts.json');
+    const request = new Request('/DWLivePreviews/Javascript/layouts.json');
     const response = await fetch(request);
     const layouts = await response.json();
     /* calls the functions */
