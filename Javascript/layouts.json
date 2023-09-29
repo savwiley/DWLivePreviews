@@ -1,14 +1,254 @@
 [{
+  "pat18-extra": {
+    "Title": "Simple Modules",
+    "URL": "/DWLivePreviews/CSS/pat18-extra.css",
+    "Image": "/DWLivePreviews/Images/pat18-extra.png",
+    "Fonts": ["Roboto", "Croissant+One"] 
+  },
   "pat18-theme": {
     "Title": "VHS Retro",
     "URL": "/DWLivePreviews/CSS/pat18-theme.css",
     "Image": "/DWLivePreviews/Images/pat18-theme.png",
     "Fonts": ["Roboto", "Monoton", "Handjet"]
   },
-  "pat18-extra": {
-    "Title": "Simple Modules",
-    "URL": "/DWLivePreviews/CSS/pat18-extra.css",
-    "Image": "/DWLivePreviews/Images/pat18-extra.png",
-    "Fonts": ["Roboto", "Croissant+One"] 
+  "pat17-extra": {
+    "Title": "Narrow Letters",
+    "URL": "/DWLivePreviews/CSS/pat17-extra.css",
+    "Image": "/DWLivePreviews/Images/pat17-extra.png",
+    "Fonts": ["Roboto", "Gruppo", "Hurricane"]
+  },
+  "pat17-theme": {
+    "Title": "RPG Pause Menu",
+    "URL": "/DWLivePreviews/CSS/pat17-theme.css",
+    "Image": "/DWLivePreviews/Images/pat17-theme.png",
+    "Fonts": ["Abel", "Hurricane"]
+  },
+  "pat16-extra": {
+    "Title": "Scrolling Windows",
+    "URL": "/DWLivePreviews/CSS/pat16-extra.css",
+    "Image": "/DWLivePreviews/Images/pat16-extra.png",
+    "Fonts": ["Roboto", "Courgette"]
+  },
+  "pat16-theme": {
+    "Title": "Plants on Pink",
+    "URL": "/DWLivePreviews/CSS/pat18-theme.css",
+    "Image": "/DWLivePreviews/Images/pat18-theme.png",
+    "Fonts": ["Roboto", "El+Messiri"]
+  },
+  "pat15-extra": {
+    "Title": "Single Column",
+    "URL": "/DWLivePreviews/CSS/pat15-extra.css",
+    "Image": "/DWLivePreviews/Images/pat15-extra.png",
+    "Fonts": ["Roboto", "Abel"]
+  },
+  "pat15-theme": {
+    "Title": "Collapsed Entries",
+    "URL": "/DWLivePreviews/CSS/pat15-theme.css",
+    "Image": "/DWLivePreviews/Images/pat15-theme.png",
+    "Fonts": ["Roboto"]
+  },
+  "pat14-extra": {
+    "Title": "Faded Sidebar",
+    "URL": "/DWLivePreviews/CSS/pat14-extra.css",
+    "Image": "/DWLivePreviews/Images/pat14-extra.png",
+    "Fonts": ["Roboto", "Abel", "Courgette"]
+  },
+  "pat14-theme": {
+    "Title": "Heavy Metal",
+    "URL": "/DWLivePreviews/CSS/pat14-theme.css",
+    "Image": "/DWLivePreviews/Images/pat14-theme.png",
+    "Fonts": ["Roboto", "Pirata+One"]
+  },
+  "pat13-extra": {
+    "Title": "Aurora Borealis",
+    "URL": "/DWLivePreviews/CSS/pat13-extra.css",
+    "Image": "/DWLivePreviews/Images/pat13-extra.png",
+    "Fonts": ["Roboto", "Homemade+Apple"]
+  },
+  "pat13-theme": {
+    "Title": "Pink Flowers",
+    "URL": "/DWLivePreviews/CSS/pat13-theme.css",
+    "Image": "/DWLivePreviews/Images/pat13-theme.png",
+    "Fonts": ["Roboto", "Pacifico"]
+  },
+  "pat13-early": {
+    "Title": "Another Rainbow Layout",
+    "URL": "/DWLivePreviews/CSS/pat13-early.css",
+    "Image": "/DWLivePreviews/Images/pat13-early.png",
+    "Fonts": ["Roboto", "Lobster"]
+  },
+  "pat12-extra": {
+    "Title": "Another Splash Page",
+    "URL": "/DWLivePreviews/CSS/pat12-extra.css",
+    "Image": "/DWLivePreviews/Images/pat12-extra.png",
+    "Fonts": ["Roboto", "Lobster"]
+  },
+  "pat12-theme": {
+    "Title": "Colorful Dice",
+    "URL": "/DWLivePreviews/CSS/pat12-theme.css",
+    "Image": "/DWLivePreviews/Images/pat12-theme.png",
+    "Fonts": ["Roboto", "Pacifico"]
+  },
+  "pat11-extra": {
+    "Title": "Documentation",
+    "URL": "/DWLivePreviews/CSS/pat11-extra.css",
+    "Image": "/DWLivePreviews/Images/pat11-extra.png",
+    "Fonts": ["Roboto", "Pacifico"]
+  },
+  "pat11-theme": {
+    "Title": "Static",
+    "URL": "/DWLivePreviews/CSS/pat11-theme.css",
+    "Image": "/DWLivePreviews/Images/pat11-theme.png",
+    "Fonts": ["Roboto", "Oswald"]
+  },
+  "pat10-extra": {
+    "Title": "Floating Box",
+    "URL": "/DWLivePreviews/CSS/pat10-extra.css",
+    "Image": "/DWLivePreviews/Images/pat10-extra.png",
+    "Fonts": ["Roboto", "Gruppo"]
+  },
+  "pat10-theme": {
+    "Title": "Thunderstorm",
+    "URL": "/DWLivePreviews/CSS/pat10-theme.css",
+    "Image": "/DWLivePreviews/Images/pat10-theme.gif",
+    "Fonts": ["Gruppo", "Oswald"]
+  },
+  "adventD12": {
+    "Title": "One More Minimal Layout",
+    "URL": "/DWLivePreviews/CSS/adventD12.css",
+    "Image": "/DWLivePreviews/Images/adventD12.png",
+    "Fonts": ["Roboto+Slab", "Roboto", "Courgette"]
+  },
+  "adventD11": {
+    "Title": "Dark Minimal",
+    "URL": "/DWLivePreviews/CSS/adventD11.css",
+    "Image": "/DWLivePreviews/Images/adventD11.png",
+    "Fonts": ["Roboto"]
+  },
+  "pat09-extra": {
+    "Title": "Modern Monochrome",
+    "URL": "/DWLivePreviews/CSS/pat09-extra.css",
+    "Image": "/DWLivePreviews/Images/pat09-extra.png",
+    "Fonts": ["Roboto"]
+  },
+  "pat09-theme": {
+    "Title": "Plaid & Country",
+    "URL": "/DWLivePreviews/CSS/pat09-theme.css",
+    "Image": "/DWLivePreviews/Images/pat09-theme.png",
+    "Fonts": ["Roboto", "Allison"]
+  },
+  "adventD08": {
+    "Title": "Monospace Minimal",
+    "URL": "/DWLivePreviews/CSS/adventD08.css",
+    "Image": "/DWLivePreviews/Images/adventD08.png",
+    "Fonts": ["Kanit", "Nova+Mono"]
+  },
+  "adventD07": {
+    "Title": "Kind of Minimal",
+    "URL": "/DWLivePreviews/CSS/adventD07.css",
+    "Image": "/DWLivePreviews/Images/adventD07.png",
+    "Fonts": ["Roboto", "Quicksand"]
+  },
+  "adventD06": {
+    "Title": "Filled With Woe",
+    "URL": "/DWLivePreviews/CSS/adventD06.css",
+    "Image": "/DWLivePreviews/Images/adventD06.png",
+    "Fonts": ["Roboto", "Amatic+SC"]
+  },
+  "adventD05": {
+    "Title": "A Pretty Layout",
+    "URL": "/DWLivePreviews/CSS/adventD05.css",
+    "Image": "/DWLivePreviews/Images/adventD05.png",
+    "Fonts": ["Roboto", "Berkshire+Swash"]
+  },
+  "adventD02": {
+    "Title": "Rainbow Layout",
+    "URL": "/DWLivePreviews/CSS/adventD02.css",
+    "Image": "/DWLivePreviews/Images/adventD02.png",
+    "Fonts": ["Roboto"]
+  },
+  "pat08-extra": {
+    "Title": "Slimming Down Backgrounds",
+    "URL": "/DWLivePreviews/CSS/pat08-extra.css",
+    "Image": "/DWLivePreviews/Images/pat08-extra.png",
+    "Fonts": ["Roboto", "Caveat"]
+  },
+  "pat08-theme": {
+    "Title": "About as Minimal as it Gets",
+    "URL": "/DWLivePreviews/CSS/pat08-theme.css",
+    "Image": "/DWLivePreviews/Images/pat08-theme.png",
+    "Fonts": ["Roboto"]
+  },
+  "pat07-extra": {
+    "Title": "Two Sidebars",
+    "URL": "/DWLivePreviews/CSS/pat07-extra.css",
+    "Image": "/DWLivePreviews/Images/pat07-extra.png",
+    "Fonts": ["Roboto", "Macondo+Swash+Caps"]
+  },
+  "pat07-theme": {
+    "Title": "Sitcom",
+    "URL": "/DWLivePreviews/CSS/pat07-theme.css",
+    "Image": "/DWLivePreviews/Images/pat07-theme.png",
+    "Fonts": ["Poppins", "Engagement"]
+  },
+  "pat06-extra": {
+    "Title": "Cyberpunk Retro",
+    "URL": "/DWLivePreviews/CSS/pat06-extra.css",
+    "Image": "/DWLivePreviews/Images/pat06-extra.png",
+    "Fonts": ["Abel", "Audiowide"]
+  },
+  "pat06-theme": {
+    "Title": "Floral Layout",
+    "URL": "/DWLivePreviews/CSS/pat06-theme.css",
+    "Image": "/DWLivePreviews/Images/pat06-theme.png",
+    "Fonts": ["Abel", "Courgette"]
+  },
+  "pat05-extra": {
+    "Title": "Colorful Borders",
+    "URL": "/DWLivePreviews/CSS/pat06-extra.css",
+    "Image": "/DWLivePreviews/Images/pat06-extra.png",
+    "Fonts": ["Dancing+Script"]
+  },
+  "pat05-theme": {
+    "Title": "Moodboard",
+    "URL": "/DWLivePreviews/CSS/pat05-theme.css",
+    "Image": "/DWLivePreviews/Images/pat05-theme.png",
+    "Fonts": ["Oswald"]
+  },
+  "pat04-extra": {
+    "Title": "Background Heavy",
+    "URL": "/DWLivePreviews/CSS/pat04-extra.css",
+    "Image": "/DWLivePreviews/Images/pat04-extra.png",
+    "Fonts": ["Berkshire+Swash", "Roboto+Condensed"]
+  },
+  "pat04-theme": {
+    "Title": "Miami Sunset",
+    "URL": "/DWLivePreviews/CSS/pat04-theme.css",
+    "Image": "/DWLivePreviews/Images/pat04-theme.png",
+    "Fonts": ["Poiret+One"]
+  },
+  "pat03": {
+    "Title": "Shadow",
+    "URL": "/DWLivePreviews/CSS/pat03.css",
+    "Image": "/DWLivePreviews/Images/pat03.png",
+    "Fonts": ["Special+Elite", "Kanit"]
+  },
+  "pat-bn": {
+    "Title": "Surprise",
+    "URL": "/DWLivePreviews/CSS/pat-bn.css",
+    "Image": "/DWLivePreviews/Images/pat-bn.png",
+    "Fonts": ["Aladin", "Roboto"]
+  },
+  "pat02": {
+    "Title": "Stained Glass",
+    "URL": "/DWLivePreviews/CSS/pat02.css",
+    "Image": "/DWLivePreviews/Images/pat02.png",
+    "Fonts": ["Libre+Baskerville", "Metamorphous"]
+  },
+  "pat01": {
+    "Title": "Newspaper",
+    "URL": "/DWLivePreviews/CSS/pat01.css",
+    "Image": "/DWLivePreviews/Images/pat01.png",
+    "Fonts": ["Staatliches", "Oswald"]
   }
 }]
