@@ -1,0 +1,256 @@
+:root {
+  --background: #000;
+  --accent: #111;
+  --lightAccent: #222;
+  --text: #999;
+
+  --font: 'Roboto', sans-serif;
+}
+
+
+
+/* GENERAL */
+
+body {
+  background: var(--background);
+  color: var(--text);
+  cursor: crosshair;
+  font-family: var(--font);
+  height: 100vh;
+}
+
+a {
+  text-transform: lowercase;
+  font-variant: small-caps;
+  letter-spacing: 2px; 
+  font-weight: bold;
+  font-family: var(--font);
+  color: #eee;
+  text-decoration: none;
+}
+
+
+
+/* CREDIT */
+
+body::after {
+  content: 'killthecake';
+  color: var(--lightAccent);
+  font-size: 13px;
+  font-weight: bold;
+  font-variant: small-caps;
+  letter-spacing: 3px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+
+
+/* SCROLLBAR */
+/* will not work on all browsers - non-standard */
+
+::-webkit-scrollbar {
+  background: var(--background);
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+
+/* HIGHLIGHT */
+
+::selection {
+  background: var(--text);
+  color: var(--background);
+}
+
+::-moz-selection {
+  background: var(--text);
+  color: var(--background);
+}
+
+
+
+/* CONTROL STRIP */
+
+#lj_controlstrip {
+  display: none;
+}
+
+
+
+/* HEADER */
+
+#header {
+  display: none;
+}
+
+
+
+/* NAVIGATION */
+
+.topnav,
+.bottomnav,
+.page-top {
+  display: none;
+}
+
+
+
+/* MODULES */
+
+#secondary,
+#tertiary {
+  display: none;
+}
+
+
+
+/* ENTRIES */
+
+.comment-date-text,
+.comment-from-text,
+.comment-ip-text,
+.restrictions, 
+.access-filter,
+.sticky-entry-icon,
+.entry .header,
+.entry .userpic,
+.entry .tag,
+ul.entry-interaction-links, 
+ul.entry-management-links.text-links li.link.edit_tags, 
+ul.entry-management-links.text-links li.link.mem_add, 
+ul.entry-management-links.text-links li.link.tell_friend, 
+ul.entry-management-links.text-links li.link.watch_comments, 
+ul.entry-management-links.icon-links li.link.edit_tags, 
+ul.entry-management-links.icon-links li.link.mem_add, 
+ul.entry-management-links.icon-links li.link.tell_friend, 
+ul.entry-management-links.icon-links li.link.watch_comments {
+  display: none;
+}
+
+#primary {
+  width: 80%;
+  height: 300px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  overflow: hidden;
+}
+
+.entry {
+  height: 280px;
+  overflow-y: auto;
+  margin-bottom: 40px;
+}
+
+.entry .entry-content {
+  font-size: 13px;
+}
+
+.entry .footer,
+.entry .footer a {
+  text-align: right;
+  font-size: 12px;
+}
+
+
+
+/* CUSTOM NAVIGATION */
+
+.navigation > div {
+  opacity: 0 !important;
+  transition: all 1s;
+}
+
+.navigation a {
+  padding: 2px 0 4px !important;
+  opacity: 0 !important;
+  transition: opacity 0.2s;
+}
+
+.navigation:hover > div {
+  opacity: 1 !important;
+}
+
+.navigation:hover a {
+  opacity: 1 !important;
+  transition: opacity 2s;
+}
+
+.navigation a:hover {
+  box-shadow: 0 0 8px rgba(255,255,255,0.8);
+  background: #000 !important;
+}
+
+
+
+
+#selectorMain {
+  position: fixed;
+  top: -120vh;
+  right: 0;
+  left: 0;
+  height: 100vh;
+  background: linear-gradient(120deg, #deb9ee, #fcc0e0, #f8ebaa, #bdf8fa, #fcc0e0);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  overflow-y: auto;
+  box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  transition: all 0.4s;
+}
+
+#open-close {
+  padding: 15px 30px 30px 15px;
+  font-size: 25px;
+  color: #000;
+  background: linear-gradient(120deg, #deb9ee, #fcc0e0, #f8ebaa, #bdf8fa, #fcc0e0);
+  box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  border-radius: 0 0 100px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#open-close:hover {
+  text-shadow: 0 0 4px rgba(0,0,0,0.6);
+  color: #fff;
+}
+
+.imageBlock {
+  width: 180px;
+  height: 120px;
+  margin: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 4px #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: transparent;
+  letter-spacing: 1px;
+  transition: all 0.2s;
+}
+
+.imageBlock:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 8px #000;
+  color: #fff;
+  text-shadow: 0 0 2px #000, 0 0 4px #000;
+}
