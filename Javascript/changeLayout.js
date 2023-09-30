@@ -1,5 +1,4 @@
-let layKey = false;
-let layName;
+let laykey;
 
 const changeLayout = (() => {
   const fontsLink = document.getElementById('fonts');
@@ -14,8 +13,8 @@ const changeLayout = (() => {
     const response = await fetch(request);
     const layouts = await response.json();
     /* calls the functions */
-    if (layKey) {
-      prebuilt(layouts[0], layName);
+    if (laykey) {
+      prebuilt(layouts[0], laykey);
     } else {
       random(layouts[0]);
     }
