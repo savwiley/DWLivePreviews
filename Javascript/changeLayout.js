@@ -4,6 +4,8 @@ const changeLayout = (() => {
   const menu = document.querySelector("#open-close");
   const icon = document.querySelector(".fa-solid");
   const selectorMain = document.querySelector("#selectorMain");
+  let layKey = false;
+  let layName;
 
   /* call json data */
   async function populate() {
@@ -11,7 +13,11 @@ const changeLayout = (() => {
     const response = await fetch(request);
     const layouts = await response.json();
     /* calls the functions */
-    random(layouts[0]);
+    if (layKey) {
+      prebuilt(layouts[0], layName);
+    } else {
+      random(layouts[0]);
+    }
     selector(layouts[0]);
   };
   populate();
@@ -31,6 +37,11 @@ const changeLayout = (() => {
     let key = Object.keys(layouts)[randNumb];
     fontsLink.href = fonts(layouts[key]);
     layoutsLink.href = layouts[key]["URL"];
+  }
+
+  const prebuilt = (layouts, name) => {
+    fontsLink.href = fonts(layouts[name]);
+    layoutsLink.href = layouts[name]["URL"];
   }
 
   /* selector DOM */
