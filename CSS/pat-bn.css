@@ -201,7 +201,8 @@ body::after {
 .module-powered, 
 .module-pagesummary, 
 .module-calendar, 
-.module-active {
+.module-active,
+#tertiary {
   display: none;
 }
 
@@ -227,7 +228,7 @@ li.module-list-item {
   font-weight: bold;
 }
 
-#tertiary {
+#secondary {
   width: 20%;
   float: left;
   margin-top: 50px;
@@ -235,7 +236,7 @@ li.module-list-item {
   border: 15px solid var(--light-accent);
 }
 
-#tertiary .inner {
+#secondary .inner {
   padding: 0 !important;
 }
 
