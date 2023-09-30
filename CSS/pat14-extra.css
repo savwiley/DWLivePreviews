@@ -154,6 +154,7 @@ button {
 .module-typelist,
 .module-tags_multilevel, 
 .module-tags_list,
+.module-customtext,
 #tertiary {
   display: none;
 }
@@ -212,17 +213,6 @@ button {
 
 .module-navlinks a:hover {
   background: rgba(255, 255, 255, 0.1);
-}
-
-.module-customtext {
-  font-size: var(--headerSize);
-  text-align: center;
-  width: 400px;
-  padding-top: 5px;
-  opacity: 0;
-  font-family: var(--headerFont);
-  cursor: default;
-  transition: opacity 0.8s;
 }
 
 #secondary:hover .module-navlinks,
