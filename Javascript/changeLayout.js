@@ -1,4 +1,5 @@
-let laykey;
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
 
 const changeLayout = (() => {
   const fontsLink = document.getElementById('fonts');
@@ -13,8 +14,9 @@ const changeLayout = (() => {
     const response = await fetch(request);
     const layouts = await response.json();
     /* calls the functions */
-    if (laykey) {
-      prebuilt(layouts[0], laykey);
+    if (urlParams.has('laykey')) {
+      let key = urlParams.get('laykey');
+      prebuilt(layouts[0], key);
     } else {
       random(layouts[0]);
     }
