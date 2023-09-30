@@ -1,11 +1,12 @@
+let layKey = false;
+let layName;
+
 const changeLayout = (() => {
   const fontsLink = document.getElementById('fonts');
   const layoutsLink = document.getElementById('layout');
   const menu = document.querySelector("#open-close");
   const icon = document.querySelector(".fa-solid");
   const selectorMain = document.querySelector("#selectorMain");
-  let layKey = false;
-  let layName;
 
   /* call json data */
   async function populate() {
