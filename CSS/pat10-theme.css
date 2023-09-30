@@ -1,0 +1,543 @@
+:root {
+  --backgroundImage: url('https://wallpapers.com/images/hd/cyberpunk-city-aesthetic-rain-vnajdswuaqtbtoep.jpg');
+  --backgroundColor: rgba(0,0,0,0.8);
+  --backgroundColor2: #000;
+  --backgroundColor3: #000;
+  --text1: #ccc;
+  --text2: #111;
+  --accent: #a0e2e5;
+  --accentB: rgb(160, 226, 229, 0.4);
+
+  --font: 'Oswald', sans-serif;
+  --header: 'Gruppo', sans-serif;
+}
+
+body {
+  background: center/cover var(--backgroundImage) fixed;
+  color: var(--text1);
+  font-family: var(--font);
+  font-size: 14px;
+  overflow: hidden;
+  animation: 8s lightning infinite;
+}
+
+@keyframes lightning {
+  0% {
+    -webkit-filter: brightness(1);
+       -moz-filter: brightness(1);
+            filter: brightness(1);
+  }
+  58% {
+    -webkit-filter: brightness(1);
+       -moz-filter: brightness(1);
+            filter: brightness(1);
+  }
+  60% {
+    -webkit-filter: brightness(2);
+       -moz-filter: brightness(2);
+            filter: brightness(2);
+  }
+  63% {
+    -webkit-filter: brightness(1);
+       -moz-filter: brightness(1);
+            filter: brightness(1);
+  }
+  65% {
+    -webkit-filter: brightness(4);
+       -moz-filter: brightness(4);
+            filter: brightness(4);
+  }
+  68% {
+    -webkit-filter: brightness(3);
+       -moz-filter: brightness(3);
+            filter: brightness(3);
+  }
+  70% {
+    -webkit-filter: brightness(2);
+       -moz-filter: brightness(2);
+            filter: brightness(2);
+  }
+  72% {
+    -webkit-filter: brightness(1);
+       -moz-filter: brightness(1);
+            filter: brightness(1);
+  }
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  padding: 0 2px;
+  font-family: var(--header);
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+a:hover {
+  border-bottom: 1px solid var(--accent);
+}
+
+input,
+button,
+select {
+  background: var(--backgroundColor);
+  border: 1px solid var(--backgroundColor2);
+  color: var(--text1);
+  font-family: var(--font);
+}
+
+
+
+/* SCROLLBAR */
+/* will not work on all browsers - non-standard */
+
+::-webkit-scrollbar {
+  background: var(--text2);
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--backgroundColor2);
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+
+/* HIGHLIGHT */
+
+::selection {
+  background: var(--text1);
+  color: var(--text2);
+}
+
+::-moz-selection {
+  background: var(--text1);
+  color: var(--text2);
+}
+
+
+
+/* CREDIT */
+
+body::after {
+  content: 'killthecake';
+  color: var(--text1);
+  font-size: 11px;
+  font-weight: bold;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  position: fixed;
+  top: 3px;
+  right: 15px;
+}
+
+
+
+/* CONTROL STRIP */
+
+#lj_controlstrip {
+  display: none;
+}
+
+
+
+/* POP-UPS */
+
+.ljuser .ContextualPopup-trigger {
+  display: none;
+}
+
+.ljuser::before {
+  content: "@";
+  color: var(--accent);
+  font-weight: bold;
+  font-size: 10px;
+  padding: 0 2px 0 4px;
+}
+
+.ljuser a:first-child {
+  padding: 0;
+}
+
+.ContextualPopup {
+  border: 2px solid var(--accent);
+  background: var(--background);
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.4);
+  color: var(--accent);
+}
+
+.ContextualPopup a {
+  color: var(--background);
+  background: var(--accent);
+}
+
+
+
+/* HEADER */
+
+#header {
+  display: none;
+}
+
+
+
+/* NAVIGATION */
+
+.topnav {
+  display: none;
+}
+
+.page-top a {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  font-size: 10px;
+  text-transform: uppercase;
+  width: 50px;
+  text-align: center;
+}
+
+.page-top a:hover {
+  border: none;
+  color: var(--text1);
+}
+
+
+
+/* MODULES */
+
+.module h2,
+.module .manage-link, 
+.module-tags_cloud, 
+.module-tags_multilevel, 
+.module-tags_list,
+.module-customtext, 
+.module-cuttagcontrols, 
+.module-credit, 
+.module-syndicate, 
+.module-subscriptionfilters, 
+.module-search, 
+.module-time, 
+.module-powered, 
+.module-pagesummary, 
+.module-calendar, 
+.module-active,
+.module-userprofile, 
+#tertiary {
+  display: none;
+}
+
+#secondary {
+  background: var(--backgroundColor3);
+  width: 35%;
+  height: 100vh;
+  padding: 1px 0;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow-x: hidden;
+}
+
+#secondary > .inner:first-child {
+  padding: 0;
+}
+
+#secondary .module-wrapper::before {
+  content: '';
+  background: center/cover var(--backgroundImage);
+  display: block;
+  width: 100%;
+  height: 100vh;
+}
+
+#secondary a {
+  display: block;
+  border-top: 1px solid var(--accentB);
+  padding: 8px 0;
+  margin: -5px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  background-size: 100% 100%;
+  background: var(--backgroundColor3);
+  transition: all 0.3s;
+}
+
+#secondary a:hover {
+  color: var(--text1);
+  background: var(--accentB);
+  border-bottom: none;
+}
+
+.module-navlinks ul,
+.module-typelist ul {
+  margin: 0;
+  text-align: center;
+}
+
+.module-navlinks li,
+.module-typelist li {
+  list-style-type: none;
+  margin: -1px;
+  padding: 5px 0;
+}
+
+
+
+/* ENTRIES */
+
+.comment-date-text,
+.comment-from-text,
+.comment-ip-text,
+.restrictions img, 
+.access-filter img,
+.sticky-entry-icon,
+.entry .userpic,
+.comment .userpic {
+  display: none;
+}
+
+#primary {
+  background: var(--backgroundColor);
+  margin-left: 35%;
+  width: 65%;
+  height: 100vh;
+  overflow: auto;
+}
+
+#primary > .inner:first-child {
+  padding: 0;
+}
+
+.entry {
+  width: 80%;
+  padding: 10px 0;
+  margin: auto;
+}
+
+.entry-wrapper-even {
+  background: var(--backgroundColor2);
+}
+
+.entry .entry-title,
+.entry .entry-title a {
+  font-family: var(--header);
+  font-size: 30px;
+}
+
+.entry .entry-title {
+  margin-bottom: -20px;
+}
+
+.entry .datetime {
+  font-family: var(--header);
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: default;
+  display: block;
+  text-align: right;
+  color: var(--accent);
+}
+
+.entry .datetime a {
+  font-size: 11px;
+  padding: 0;
+}
+
+.entry .entry-content {
+  text-align: justify;
+  padding: 10px 0 20px;
+}
+
+.entry .footer {
+  font-family: var(--header);
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: right;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.entry .footer a {
+  font-size: 10px;
+}
+
+.entry-management-links, 
+.entry-interaction-links,
+.comment-management-links, 
+.comment-interaction-links {
+  display: inline;
+}
+
+.entry .tag {
+  float: left;
+}
+
+.access-filter,
+.restrictions {
+  display: inline-block;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-variant: small-caps;
+  text-align: left;
+  margin: 10px 2px 0 0;
+}
+
+.security-protected .access-filter:before {
+  content: "locked";
+}
+
+.security-private .access-filter:before {
+  content: "private";
+}
+
+.restrictions-NSFW .restrictions:before {
+  content:"nsfw";
+}
+
+.restrictions-18 .restrictions:before {
+  content:"18+";
+}
+
+.comment-wrapper {
+  padding: 10px 20px;
+}
+
+.comment .comment-content {
+  padding: 5px 0;
+  text-align: justify;
+}
+
+.comment .datetime,
+.comment .poster-ip {
+  font-family: var(--header);
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: default;
+  color: var(--accent);
+}
+
+.comment-pages {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.bottomcomment {
+  text-align: center;
+}
+
+.bottomcomment .entry-management-links, 
+.bottomcomment .entry-interaction-links {
+  display: block;
+  text-align: center;
+}
+
+.noentries {
+  text-align: center;
+  font-weight: bold;
+  cursor: default;
+}
+
+
+
+/* ARCHIVE, TAGS, ICONS */
+
+.header h2 {
+  text-decoration: none;
+  cursor: default;
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--accent);
+  font-family: var(--header);
+}
+
+.tags-container,
+.icons-container,
+.month-wrapper,
+#archive-month {
+  padding: 0 20px 10px;
+}
+
+.icon-image, 
+.icon-info {
+  display:inline-block;
+  padding: 10px 0 10px 10px;
+}
+
+.icon-image a {
+  background: transparent;
+}
+
+.month table caption {
+  font-weight: bold;
+}
+
+.month .header {
+  display: none;
+}
+
+table.month {
+  width: 80%;
+}
+
+table.month th {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--backgroundColor2);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+table.month td {
+  border-color: var(--accent);
+  vertical-align: top;
+}
+
+.month caption {
+  font-size: 30px;
+}
+
+
+
+/* MOBILE */
+
+@media (max-width: 1000px) {
+  .entry .datetime {
+    display: inline-block;
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  #secondary {
+    display: none;
+  }
+  #primary {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+
+
+/* CUSTOM */
+
+.custom-drop {
+  max-height: 35px;
+  overflow: hidden;
+  transition: all 0.8s ease-out;
+}
+
+.custom-drop:hover {
+  max-height: 500px;
+  transition: all 0.8s ease-in;
+}
