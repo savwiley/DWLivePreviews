@@ -1,0 +1,499 @@
+:root {
+  --backgroundImage: center/cover url('https://cdn.discordapp.com/attachments/1046237617685020682/1121902139036401714/background.png') fixed;
+  --background: rgba(255, 255, 255, 0.2);
+  --backgroundT: #999;
+  --text: #000;
+  --accent: #0e2174;
+  --accent2: #030e3a;
+
+  --font: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  font-size: 12px;
+  background: var(--backgroundImage), var(--background);
+  color: var(--text);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--accent2);
+}
+
+input,
+select,
+button {
+  background: var(--backgroundT);
+  color: var(--text);
+  border: none;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+
+
+/* SCROLLBAR */
+/* will not work on all browsers - non-standard */
+
+::-webkit-scrollbar {
+  background: var(--text);
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border: 3px solid var(--text);
+  border-top: none;
+  border-bottom: none;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+
+/* HIGHLIGHT */
+
+::selection {
+  background: var(--text);
+  color: var(--backgroundT);
+}
+
+::-moz-selection {
+  background: var(--text);
+  color: var(--backgroundT);
+}
+
+
+
+/* CREDIT */
+
+body::after {
+  content: 'killthecake';
+  color: var(--backgroundT);
+  font-size: 8px;
+  font-weight: bold;
+  font-variant: small-caps;
+  letter-spacing: 4px;
+  position: fixed;
+  bottom: 3px;
+  left: 5px;
+}
+
+
+
+/* CONTROL STRIP */
+
+#lj_controlstrip {
+  display: none;
+}
+
+
+
+/* POP-UPS */
+
+.ljuser .ContextualPopup-trigger {
+  display: none;
+}
+
+.ljuser::before {
+  content: "@";
+  color: var(--accent);
+  font-weight: bold;
+  font-size: 10px;
+  padding: 0 2px 0 4px;
+}
+
+.ljuser a:first-child {
+  padding: 0;
+}
+
+.ContextualPopup {
+  border: 2px solid var(--text);
+  background: var(--backgroundT);
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.4);
+  color: var(--accent);
+}
+
+.ContextualPopup a {
+  color: var(--accent);
+}
+
+
+
+/* HEADER */
+
+#header {
+  display: none;
+}
+
+
+
+/* NAVIGATION */
+
+.topnav,
+.page-top {
+  display: none;
+}
+
+.bottomnav {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.bottomnav a {
+  color: var(--text);
+}
+
+
+
+/* MODULES */
+
+.module h2,
+.module .manage-link, 
+.module-tags_cloud, 
+.module-cuttagcontrols, 
+.module-credit, 
+.module-syndicate, 
+.module-subscriptionfilters, 
+.module-search, 
+.module-time, 
+.module-powered, 
+.module-pagesummary, 
+.module-calendar, 
+.module-active,
+.module-userprofile, 
+.module-tags_multilevel, 
+.module-tags_list,
+.module-customtext,
+#secondary,
+#tertiary {
+  display: none;
+}
+
+
+
+/* ENTRIES */
+
+.comment-date-text,
+.comment-from-text,
+.comment-ip-text,
+.restrictions img, 
+.access-filter img,
+.sticky-entry-icon,
+.entry .userpic,
+.comment .userpic,
+.entry .time {
+  display: none;
+}
+
+#primary {
+  width: 70%;
+  margin: auto;
+}
+
+.entry {
+  margin: 40px 0;
+  background: var(--background);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  overflow: hidden;
+  padding: 10px 30px 20px;
+  max-height: 40px;
+  transition: all 1s;
+}
+
+.entry:hover {
+  max-height: 1000px;
+  transition: all 1s;
+}
+
+.entry .entry-title,
+.entry .entry-title a {
+  color: var(--text);
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.entry .date,
+.entry .date a {
+  color: var(--accent);
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.entry .date a:hover {
+  color: var(--accent2);
+}
+
+.entry .ljuser {
+  display: block;
+  padding-top: 10px;
+}
+
+.entry .entry-content {
+  text-align: justify;
+  padding: 10px 0;
+}
+
+.entry-management-links, 
+.entry-interaction-links,
+.comment-management-links, 
+.comment-interaction-links {
+  display: inline;
+}
+
+.entry-management-links a, 
+.entry-interaction-links a {
+  padding-left: 2px;
+}
+
+.entry .footer {
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px;
+}
+
+.entry .footer a {
+  color: var(--text);
+}
+
+.entry .footer a:hover {
+  color: var(--accent);
+}
+
+.comment .footer {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px;
+}
+
+.entry .tag {
+  float: left;
+}
+
+.access-filter,
+.restrictions {
+  display: block;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-variant: small-caps;
+  text-align: right;
+  float: right;
+}
+
+.security-protected .access-filter:before {
+  content: "locked";
+}
+
+.security-private .access-filter:before {
+  content: "private";
+}
+
+.restrictions-NSFW .restrictions:before {
+  content:"nsfw";
+}
+
+.restrictions-18 .restrictions:before {
+  content:"18+";
+}
+
+.comment {
+  margin: 10px 0;
+  background: var(--background);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  padding: 10px;
+}
+
+.comment-pages {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.bottomcomment {
+  text-align: center;
+}
+
+.comment-pages a,
+.bottomcomment a {
+  color: var(--text);
+}
+
+.bottomcomment .entry-management-links, 
+.bottomcomment .entry-interaction-links {
+  display: block;
+  text-align: center;
+}
+
+.noentries {
+  text-align: center;
+  font-weight: bold;
+  cursor: default;
+}
+
+
+
+/* ARCHIVE, TAGS, ICONS */
+
+.header h2 {
+  text-decoration: none;
+  cursor: default;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 24px;
+}
+
+.tags-container,
+.icons-container,
+.month-wrapper,
+#archive-month {
+  padding: 1px 10px 10px;
+  background: var(--background);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+}
+
+.icon-image, 
+.icon-info {
+  display:inline-block;
+  padding: 10px 0 10px 10px;
+}
+
+.icon-image a {
+  background: transparent;
+}
+
+.month table caption {
+  font-weight: bold;
+}
+
+.month .header {
+  display: none;
+}
+
+table.month {
+  width: 80%;
+}
+
+table.month th {
+  border-color: var(--text);
+  background: var(--text);
+  color: var(--backgroundT);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+table.month td {
+  border-color: var(--text);
+  vertical-align: top;
+}
+
+table.month tbody {
+  background: transparent;
+}
+
+table.month .day-has-entries {
+  background: transparent;
+}
+
+.month caption {
+  font-size: 24px;
+  font-style: italic;
+  cursor: default;
+}
+
+
+
+/*--MOBILE--*/
+
+@media (max-width: 1000px) {
+  #primary {
+    width: 90%;
+  }
+}
+
+@media (max-width: 800px) {
+  .entry {
+    max-height: fit-content;
+  }
+}
+
+
+
+#selectorMain {
+  position: fixed;
+  top: -120vh;
+  right: 0;
+  left: 0;
+  height: 100vh;
+  background: linear-gradient(120deg, #deb9ee, #fcc0e0, #f8ebaa, #bdf8fa, #fcc0e0);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  overflow-y: auto;
+  box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  z-index: 500;
+  transition: all 0.4s;
+}
+
+#open-close {
+  padding: 15px 30px 30px 15px;
+  font-size: 25px;
+  color: #000;
+  background: linear-gradient(120deg, #deb9ee, #fcc0e0, #f8ebaa, #bdf8fa, #fcc0e0);
+  box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  border-radius: 0 0 100px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  z-index: 1000;
+  transition: all 0.2s ease-in-out;
+}
+
+#open-close:hover {
+  text-shadow: 0 0 4px rgba(0,0,0,0.6);
+  color: #fff;
+}
+
+.imageBlock {
+  width: 180px;
+  height: 120px;
+  margin: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 4px #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: transparent;
+  letter-spacing: 1px;
+  transition: all 0.2s;
+}
+
+.imageBlock:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 8px #000;
+  color: #fff;
+  text-shadow: 0 0 2px #000, 0 0 4px #000;
+}
