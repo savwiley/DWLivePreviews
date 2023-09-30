@@ -31,8 +31,8 @@
   },
   "pat16-theme": {
     "Title": "Plants on Pink",
-    "URL": "/DWLivePreviews/CSS/pat18-theme.css",
-    "Image": "/DWLivePreviews/Images/pat18-theme.png",
+    "URL": "/DWLivePreviews/CSS/pat16-theme.css",
+    "Image": "/DWLivePreviews/Images/pat16-theme.png",
     "Fonts": ["Roboto", "El+Messiri"]
   },
   "pat15-extra": {
@@ -205,8 +205,8 @@
   },
   "pat05-extra": {
     "Title": "Colorful Borders",
-    "URL": "/DWLivePreviews/CSS/pat06-extra.css",
-    "Image": "/DWLivePreviews/Images/pat06-extra.png",
+    "URL": "/DWLivePreviews/CSS/pat05-extra.css",
+    "Image": "/DWLivePreviews/Images/pat05-extra.png",
     "Fonts": ["Dancing+Script"]
   },
   "pat05-theme": {
@@ -242,13 +242,13 @@
   "pat02": {
     "Title": "Stained Glass",
     "URL": "/DWLivePreviews/CSS/pat02.css",
-    "Image": "/DWLivePreviews/Images/pat02.png",
+    "Image": "/DWLivePreviews/Images/pat-02.png",
     "Fonts": ["Libre+Baskerville", "Metamorphous"]
   },
   "pat01": {
     "Title": "Newspaper",
     "URL": "/DWLivePreviews/CSS/pat01.css",
-    "Image": "/DWLivePreviews/Images/pat01.png",
+    "Image": "/DWLivePreviews/Images/pat-01.png",
     "Fonts": ["Staatliches", "Oswald"]
   }
 }]
