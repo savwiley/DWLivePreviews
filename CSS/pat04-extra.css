@@ -164,7 +164,8 @@ body::after {
 .module-powered, 
 .module-pagesummary, 
 .module-calendar, 
-.module-active {
+.module-active,
+#tertiary {
   display: none;
 }
 
@@ -219,7 +220,7 @@ body::after {
   display: inline-block;
 }
 
-#tertiary {
+#secondary {
   width: 350px;
   margin: 10px;
   float: left;
