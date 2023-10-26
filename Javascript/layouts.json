@@ -1,4 +1,10 @@
 [{
+  "pat19-theme": {
+    "Title": "Dark Side",
+    "URL": "/DWLivePreviews/CSS/pat19-theme.css",
+    "Image": "/DWLivePreviews/Images/pat19-theme.PNG",
+    "Fonts": ["Roboto", "Gruppo"] 
+  },
   "pat18-extra": {
     "Title": "Simple Modules",
     "URL": "/DWLivePreviews/CSS/pat18-extra.css",
