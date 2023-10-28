@@ -1,4 +1,10 @@
 [{
+  "pat19-extra": {
+    "Title": "Bi-Tarot",
+    "URL": "/DWLivePreviews/CSS/pat19-extra.css",
+    "Image": "/DWLivePreviews/Images/pat19-extra.PNG",
+    "Fonts": ["Roboto", "Josefin+Sans", "Allura"] 
+  },
   "pat19-theme": {
     "Title": "Dark Side",
     "URL": "/DWLivePreviews/CSS/pat19-theme.css",
