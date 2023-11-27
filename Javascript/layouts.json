@@ -1,4 +1,16 @@
 [{
+  "pat20-extra": {
+    "Title": "Colorful Shadows",
+    "URL": "/DWLivePreviews/CSS/pat20-extra.css",
+    "Image": "/DWLivePreviews/Images/pat20-extra.PNG",
+    "Fonts": ["Roboto", "Megrim"] 
+  },
+  "pat20-theme": {
+    "Title": "Paint Swatch",
+    "URL": "/DWLivePreviews/CSS/pat20-theme.css",
+    "Image": "/DWLivePreviews/Images/pat20-theme.PNG",
+    "Fonts": ["Roboto", "EB+Garamond"] 
+  },
   "pat19-extra": {
     "Title": "Bi-Tarot",
     "URL": "/DWLivePreviews/CSS/pat19-extra.css",
