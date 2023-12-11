@@ -1,4 +1,10 @@
 [{
+  "pat21-early": {
+    "Title": "Inverted",
+    "URL": "/DWLivePreviews/CSS/pat21-early.css",
+    "Image": "/DWLivePreviews/Images/pat21-early.PNG",
+    "Fonts": ["Roboto", "Sniglet"] 
+  },
   "pat20-extra": {
     "Title": "Colorful Shadows",
     "URL": "/DWLivePreviews/CSS/pat20-extra.css",
