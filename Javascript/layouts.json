@@ -1,4 +1,10 @@
 [{
+  "adventD06_23": {
+    "Title": "Collapsed Pt.2",
+    "URL": "/DWLivePreviews/CSS/adventD06_23.css",
+    "Image": "/DWLivePreviews/Images/adventD06_23.PNG",
+    "Fonts": ["Roboto", "Gruppo"] 
+  },
   "adventD02_23": {
     "Title": "Static Pt.2",
     "URL": "/DWLivePreviews/CSS/adventD02_23.css",
