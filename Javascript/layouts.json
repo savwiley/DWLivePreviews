@@ -1,4 +1,10 @@
 [{
+  "adventD08_23": {
+    "Title": "Pause Menu Pt.2",
+    "URL": "/DWLivePreviews/CSS/adventD08_23.css",
+    "Image": "/DWLivePreviews/Images/adventD08_23.PNG",
+    "Fonts": ["Roboto", "Inconsolata"] 
+  },
   "adventD06_23": {
     "Title": "Collapsed Pt.2",
     "URL": "/DWLivePreviews/CSS/adventD06_23.css",
