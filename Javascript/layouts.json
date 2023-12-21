@@ -1,4 +1,10 @@
 [{
+  "adventD10_23": {
+    "Title": "Dark Side Pt.2",
+    "URL": "/DWLivePreviews/CSS/adventD10_23.css",
+    "Image": "/DWLivePreviews/Images/adventD10_23.PNG",
+    "Fonts": ["Roboto", "Gruppo"] 
+  },
   "adventD08_23": {
     "Title": "Pause Menu Pt.2",
     "URL": "/DWLivePreviews/CSS/adventD08_23.css",
