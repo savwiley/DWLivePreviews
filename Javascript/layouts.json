@@ -1,4 +1,16 @@
 [{
+  "pat21-extra": {
+    "Title": "Alternating Backgrounds",
+    "URL": "/DWLivePreviews/CSS/pat21-extra.css",
+    "Image": "/DWLivePreviews/Images/pat21-extra.PNG",
+    "Fonts": ["Roboto", "Nova+One"] 
+  },
+  "pat21-theme": {
+    "Title": "Color Out the Lines Pt.2",
+    "URL": "/DWLivePreviews/CSS/pat21-theme.css",
+    "Image": "/DWLivePreviews/Images/pat21-theme.PNG",
+    "Fonts": ["Roboto", "Major+Mono+Display"] 
+  },
   "adventD12_23": {
     "Title": "Color Out the Lines",
     "URL": "/DWLivePreviews/CSS/adventD12_23.css",
