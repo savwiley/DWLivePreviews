@@ -1,0 +1,574 @@
+:root {
+  --background: #fff;
+  --text: #000;
+  --accent1: #2A9D8F;
+  --accent2: #E76F51;
+  --accent3: #E9C46A;
+
+  --font: 'Roboto', sans-serif;
+  --header: 'Major Mono Display', serif;
+}
+
+body {
+  font: 11px var(--font);
+  background: var(--background);
+  color: var(--text);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text);
+  text-shadow: 1px 1px 0 var(--background);
+  transition: all 0.4s;
+}
+
+a:hover {
+  text-shadow: 0 0 0 transparent;
+  font-weight: bold;
+  transition: all 0.4s;
+}
+
+input,
+select,
+button {
+  background: var(--background);
+  border: 1px solid var(--text);
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--text);
+}
+
+
+
+/* SCROLLBAR */
+/* will not work on all browsers - non-standard */
+
+::-webkit-scrollbar {
+  background: var(--text);
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--background);
+  border-right: 4px solid var(--text);
+  border-left: 5px solid var(--text);
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+
+/* HIGHbackground */
+
+::selection {
+  background: var(--text);
+  color: var(--background);
+}
+
+::-moz-selection {
+  background: var(--text);
+  color: var(--background);
+}
+
+
+
+/* CREDIT */
+
+body::after {
+  content: 'killthecake';
+  color: var(--text);
+  text-transform: uppercase;
+  font: 8px var(--header);
+  font-weight: bold;
+  letter-spacing: 1px;
+  position: fixed;
+  bottom: 8px;
+  left: 8px;
+  z-index: 2;
+}
+
+
+
+/* CONTROL STRIP */
+
+#lj_controlstrip {
+  display: none;
+}
+
+
+
+/* POP-UPS */
+
+.ljuser .ContextualPopup-trigger {
+  display: none;
+}
+
+.ljuser a:first-child {
+  padding: 0;
+}
+
+.ljuser a {
+  font: 8px var(--font);
+  text-transform: uppercase;
+  padding: 0 2px;
+  letter-spacing: 1px;
+}
+
+.ContextualPopup {
+  border: 4px solid var(--text);
+  border-radius: 20px;
+  background: var(--background);
+  box-shadow: none;
+  color: var(--text);
+}
+
+.ContextualPopup a {
+  color: var(--text);
+}
+
+
+
+/* HEADER */
+
+#header {
+  display: none;
+}
+
+
+
+/* NAVIGATION */
+
+.topnav {
+  display: none;
+}
+
+.bottomnav {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 10px;
+}
+
+.page-top a {
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+  text-transform: capitalize;
+  text-shadow: none;
+  font-weight: bold;
+  font-size: 11px;
+  transition: all 0.2s;
+}
+
+.page-top a:hover {
+  padding-bottom: 10px;
+}
+
+.page-forward a:hover {
+  padding-left: 15px;
+}
+
+.page-back a:hover {
+  padding-right: 15px;
+}
+
+
+
+/* MODULES */
+
+.module h2,
+.module .manage-link, 
+.module-tags_cloud, 
+.module-tags_multilevel, 
+.module-tags_list,
+.module-cuttagcontrols, 
+.module-credit, 
+.module-customtext,
+.module-syndicate, 
+.module-subscriptionfilters, 
+.module-search, 
+.module-time, 
+.module-powered, 
+.module-pagesummary, 
+.module-calendar, 
+.module-active,
+.module-userprofile, 
+#tertiary {
+  display: none;
+}
+
+#secondary {
+  background: var(--accent3);
+  width: 60%;
+  margin: 40px auto;
+  font: 16px var(--header);
+  letter-spacing: 1x;
+}
+
+#secondary > .inner:first-child {
+  margin: 0;
+  padding: 0;
+}
+
+#secondary ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+#secondary li {
+  list-style-type: none;
+  padding: 10px 15px;
+  margin: 0;
+}
+
+#secondary a {
+  font-weight: bold;
+}
+
+#secondary a:hover {
+  color: var(--background);
+  text-shadow: -1px -1px 0 var(--text);
+}
+
+.module-wrapper {
+  border: 1px solid var(--text);
+  position: relative;
+  bottom: 5px;
+  right: 5px;
+}
+
+
+
+/* PRIMARY */
+
+.comment-date-text,
+.comment-from-text,
+.comment-ip-text,
+.restrictions img,
+.access-filter img,
+.sticky-entry-icon,
+.entry .userpic,
+.comment .userpic {
+  display: none;
+}
+
+#primary {
+  width: 60%;
+  margin: auto;
+}
+
+.entry {
+  padding: 20px;
+  margin-bottom: 60px;
+  border: 1px solid var(--text);
+}
+
+.entry-wrapper:nth-child(3n) {
+  background: var(--accent2);
+}
+
+.entry-wrapper:nth-child(3n) .entry {
+  position: relative;
+  bottom: 15px;
+  right: 15px;
+}
+
+.entry-wrapper:nth-child(3n+1) {
+  background: var(--accent3);
+}
+
+.entry-wrapper:nth-child(3n+1) .entry {
+  position: relative;
+  bottom: -15px;
+  right: 15px;
+}
+
+.entry-wrapper:nth-child(3n+2) {
+  background: var(--accent1);
+}
+
+.entry-wrapper:nth-child(3n+2) .entry {
+  position: relative;
+  bottom: 15px;
+  right: -15px;
+}
+
+.entry .entry-title,
+.entry .entry-title a,
+.entry .header,
+.entry .footer {
+  margin: 0;
+  padding: 0;
+}
+
+.entry .header {
+  text-align: center;
+}
+
+.entry .entry-title {
+  cursor: default;
+}
+
+.entry .entry-title,
+.entry .entry-title a {
+  font: 30px var(--header);
+  text-shadow: 2px 2px 0 var(--background);
+  font-weight: bold;
+  transition: all 0.4s;
+}
+
+.entry .entry-title a:hover {
+  text-shadow: 0 0 0 transparent;
+  transition: all 0.4s;
+}
+
+.entry .datetime {
+  cursor: default;
+  display: block;
+  margin-top: 5px;
+}
+
+.entry .datetime,
+.entry .datetime a {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 8px;
+  text-shadow: none;
+}
+
+.access-filter,
+.restrictions {
+  display: block;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 10px;
+  cursor: default;
+}
+
+.security-protected .access-filter:before {
+  content: "locked";
+}
+
+.security-private .access-filter:before {
+  content: "private";
+}
+
+.restrictions-NSFW .restrictions:before {
+  content:"nsfw";
+}
+
+.restrictions-18 .restrictions:before {
+  content:"18+";
+}
+
+.entry .entry-content {
+  padding: 15px 0;
+  text-align: justify;
+}
+
+.entry .footer {
+  text-align: right;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 var(--background);
+  cursor: default;
+}
+
+.entry .tag {
+  float: left;
+}
+
+.entry-management-links, 
+.entry-interaction-links,
+.comment-management-links, 
+.comment-interaction-links {
+  display: inline;
+}
+
+.entry-management-links a, 
+.entry-interaction-links a,
+.comment-management-links a, 
+.comment-interaction-links a {
+  padding: 0 2px;
+}
+
+.comment-wrapper {
+  margin-bottom: 30px;
+  padding: 5px;
+  border: 1px solid var(--text);
+}
+
+.comment .comment-content {
+  padding: 5px 0;
+  text-align: justify;
+}
+
+.comment .datetime,
+.comment .poster-ip {
+  font-weight: bold;
+  cursor: default;
+}
+
+.comment .header {
+  padding-bottom: 10px;
+}
+
+.comment .footer {
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.comment-pages {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.bottomcomment,
+.comment-pages {
+  text-align: center;
+}
+
+.bottomcomment a,
+.comment-pages a {
+  padding: 0 2px;
+  font-weight: bold;
+}
+
+.bottomcomment .entry-management-links, 
+.bottomcomment .entry-interaction-links {
+  display: block;
+  text-align: center;
+}
+
+.noentries {
+  text-align: center;
+  font-weight: bold;
+  cursor: default;
+}
+
+
+
+/* ARCHIVE, TAGS, ICONS */
+
+.empty {
+  display: none;
+}
+
+.header h2 {
+  text-decoration: none;
+  cursor: default;
+  font: 30px var(--header);
+  margin: 0;
+  padding: 0;
+}
+
+.tags-container,
+.icons-container,
+.month-wrapper {
+  padding: 5px;
+  margin-top: 20px;
+}
+
+#archive-month {
+  padding: 1px 12px;
+  margin-top: 20px;
+}
+
+.tags-container,
+.icons-container,
+#archive-month {
+  margin-bottom: 40px;
+  padding: 30px;
+}
+
+.tags-container .inner,
+.icons-container .inner {
+  padding: 2px 5px 5px;
+}
+
+.icon-image, 
+.icon-info {
+  display: inline-block;
+  padding: 10px 0 10px 10px;
+}
+
+.icon-image a {
+  background: transparent;
+}
+
+.month dt {
+  padding: 5px;
+}
+
+.month table caption {
+  font-weight: bold;
+  font: 30px var(--header);
+}
+
+.month .header {
+  display: none;
+}
+
+table.month {
+  width: 80%;
+  margin: 5px auto;
+}
+
+table.month th {
+  border-color: var(--text);
+  background: var(--text);
+  color: var(--background);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+table.month td {
+  border-color: var(--text);
+  background: var(--background);
+  vertical-align: top;
+}
+
+table.month td a {
+  font-weight: bold;
+}
+
+.month caption {
+  font: 30px var(--font);
+}
+
+.month .footer {
+  text-align: center;
+}
+
+.month .footer a {
+  color: var(--text);
+}
+
+
+
+/* MOBILE */
+
+@media (max-width: 1100px) {
+  #primary,
+  #secondary {
+    width: 70%;
+  }
+  #secondary {
+    font: 1em var(--header);
+  }
+}
+
+@media (max-width: 750px) {
+  #primary,
+  #secondary {
+    width: 90%;
+  }
+}
