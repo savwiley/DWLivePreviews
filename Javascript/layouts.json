@@ -1,4 +1,10 @@
 [{
+  "pat22-theme": {
+    "Title": "Just Green",
+    "URL": "/DWLivePreviews/CSS/pat22-theme.css",
+    "Image": "/DWLivePreviews/Images/pat22-theme.PNG",
+    "Fonts": ["Roboto", "Sniglet"] 
+  },
   "pat21-extra": {
     "Title": "Alternating Backgrounds",
     "URL": "/DWLivePreviews/CSS/pat21-extra.css",
