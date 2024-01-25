@@ -1,0 +1,538 @@
+:root {
+  --background: #28CC9E;
+  --text: #185a4f;
+  --accent: #00B9B2;
+  --darkAccent: #196B69;
+  --lightAccent: #b5fcc4;
+  --border: #2c8e73;
+
+  --texture: url('https://www.transparenttextures.com/patterns/black-lozenge.png') fixed;
+
+  --font: 'Roboto', sans-serif;
+  --header: 'Sniglet', sans-serif;
+}
+
+body {
+  background: var(--background);
+  font: 10px var(--font);
+  color: var(--text);
+}
+
+a {
+  color: var(--darkAccent);
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: var(--lightAccent);
+  text-shadow: 0 0 4px var(--border);
+}
+
+input,
+select,
+button {
+  background: var(--background);
+  border: 2px solid var(--darkAccent);
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--text);
+}
+
+
+
+/* SCROLLBAR */
+/* will not work on all browsers - non-standard */
+
+::-webkit-scrollbar {
+  background: var(--background);
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--darkAccent);
+  border: 4px solid var(--background);
+  border-top: none;
+  border-bottom: none;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+
+/* HIGHLIGHT */
+
+::selection {
+  background: var(--lightAccent);
+  color: var(--background);
+}
+
+::-moz-selection {
+  background: var(--lightAccent);
+  color: var(--background);
+}
+
+
+
+/* CREDIT */
+
+body::after {
+  content: 'killthecake';
+  color: var(--darkAccent);
+  text-transform: uppercase;
+  font-size: 8px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  position: fixed;
+  bottom: 13px;
+  right: 8px;
+  z-index: 2;
+}
+
+
+
+/* CONTROL STRIP */
+
+#lj_controlstrip {
+  display: none;
+}
+
+
+
+/* POP-UPS */
+
+.ljuser .ContextualPopup-trigger {
+  display: none;
+}
+
+.ljuser a:first-child {
+  padding: 0;
+}
+
+.ljuser a {
+  font: 10px var(--font);
+  text-transform: uppercase;
+  padding: 0 2px;
+  letter-spacing: 1px;
+}
+
+.ContextualPopup {
+  border: 2px solid var(--darkAccent);
+  background: var(--background);
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.4);
+  color: var(--text);
+}
+
+.ContextualPopup a {
+  color: var(--lightAccent);
+}
+
+
+
+/* HEADER */
+
+#header {
+  display: none;
+}
+
+
+
+/* NAVIGATION */
+
+.topnav {
+  display: none;
+}
+
+.bottomnav {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.page-top {
+  text-transform: uppercase;
+  font-size: 8px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  position: fixed;
+  bottom: 8px;
+  left: 8px;
+  padding: 5px;
+}
+
+
+
+/* MODULES */
+
+.module h2,
+.module .manage-link, 
+.module-tags_cloud, 
+.module-tags_multilevel, 
+.module-tags_list,
+.module-cuttagcontrols, 
+.module-credit, 
+.module-customtext,
+.module-syndicate, 
+.module-subscriptionfilters, 
+.module-search, 
+.module-time, 
+.module-powered, 
+.module-pagesummary, 
+.module-calendar, 
+.module-active,
+.module-userprofile, 
+#tertiary {
+  display: none;
+}
+
+#secondary {
+  width: 15%;
+  font: 13px var(--header);
+  font-weight: bold;
+  position: fixed;
+}
+
+#secondary > .inner:first-child {
+  margin: 0;
+  padding: 0;
+}
+
+#secondary ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+#secondary li {
+  list-style-type: none;
+  margin: 0;
+}
+
+#secondary a {
+  display: block;
+  background: linear-gradient(90deg, var(--darkAccent), transparent) no-repeat;
+  background-size: 0% 10px;
+  background-position: left center;
+  padding: 10px 15px;
+  transition: all 0.3s;
+}
+
+#secondary a:hover {
+  background-size: 100% 10px;
+}
+
+
+
+/* ENTRIES */
+
+.comment-date-text,
+.comment-from-text,
+.comment-ip-text,
+.restrictions img,
+.access-filter img,
+.sticky-entry-icon,
+.entry .userpic,
+.comment .userpic {
+  display: none;
+}
+
+#primary {
+  width: 60%;
+  text-align: justify;
+  margin: 20px auto 0;
+}
+
+.entry {
+  margin-bottom: 40px;
+  background: var(--texture), linear-gradient(150deg, var(--background), var(--accent)) fixed;
+  padding: 30px;
+  border: 1px solid var(--border);
+  box-shadow: 0 0 6px var(--border);
+}
+
+.entry > .inner {
+  background: var(--background);
+  padding: 20px;
+  border: 1px solid var(--border);
+  box-shadow: inset 0 0 6px var(--border);
+}
+
+.entry .entry-title,
+.entry .entry-title a {
+  font: 25px var(--header);
+  color: var(--text);
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.entry .datetime {
+  text-transform: uppercase;
+  color: var(--border);
+  font-weight: bold;
+  font-size: 10px;
+  cursor: default;
+}
+
+.entry .datetime a {
+  color: var(--border);
+}
+
+.entry .entry-title a:hover,
+.entry .datetime a:hover {
+  color: var(--lightAccent);
+}
+
+.entry .entry-poster {
+  display: block;
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.access-filter,
+.restrictions {
+  display: block;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-variant: small-caps;
+  padding-right: 2px;
+  font-size: 16px;
+  color: var(--lightAccent);
+}
+
+.security-protected .access-filter:before {
+  content: "locked";
+}
+
+.security-private .access-filter:before {
+  content: "private";
+}
+
+.restrictions-NSFW .restrictions:before {
+  content:"nsfw";
+}
+
+.restrictions-18 .restrictions:before {
+  content:"18+";
+}
+
+.entry .entry-content {
+  padding: 10px 0;
+  text-align: justify;
+}
+
+.entry .footer {
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: bold;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.entry .tag {
+  color: var(--darkAccent);
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.entry-management-links, 
+.entry-interaction-links,
+.comment-management-links, 
+.comment-interaction-links {
+  display: inline;
+  text-transform: uppercase;
+}
+
+.entry-management-links a, 
+.entry-interaction-links a,
+.comment-management-links a, 
+.comment-interaction-links a {
+  padding: 0 4px;
+  border: 1px solid transparent;
+}
+
+.entry-management-links a:hover, 
+.entry-interaction-links a:hover,
+.comment-management-links a:hover, 
+.comment-interaction-links a:hover {
+  border-color: var(--darkAccent);
+  background: var(--border);
+}
+
+.comment {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.comment .comment-content {
+  padding: 5px 0;
+  text-align: justify;
+}
+
+.comment .datetime,
+.comment .poster-ip {
+  font-weight: bold;
+  cursor: default;
+}
+
+.comment .footer {
+  font-weight: bold;
+}
+
+.comment-pages {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.bottomcomment,
+.comment-pages {
+  text-align: center;
+  color: var(--darkAccent);
+}
+
+.bottomcomment a,
+.comment-pages a {
+  color: var(--darkAccent);
+  padding: 0 2px;
+  font-weight: normal;
+  font-weight: bold;
+}
+
+.bottomcomment a:hover,
+.comment-pages a:hover {
+  color: var(--lightAccent);
+}
+
+.bottomcomment .entry-management-links, 
+.bottomcomment .entry-interaction-links {
+  display: block;
+  text-align: center;
+}
+
+.noentries {
+  text-align: center;
+  font-weight: bold;
+  cursor: default;
+}
+
+
+
+/* ARCHIVE, TAGS, ICONS */
+
+.empty {
+  display: none;
+}
+
+.header h2 {
+  text-decoration: none;
+  cursor: default;
+  font-weight: bold !important;
+  font: 30px var(--header);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+}
+
+.tags-container,
+.icons-container,
+.month-wrapper {
+  padding: 10px;
+}
+
+#archive-month {
+  padding: 1px 12px;
+}
+
+.tags-container,
+.icons-container,
+#archive-month {
+  margin-bottom: 40px;
+  padding: 30px;
+}
+
+.tags-container .inner,
+.icons-container .inner {
+  padding: 2px 5px 5px;
+}
+
+.icon-image, 
+.icon-info {
+  display: inline-block;
+  padding: 10px 0 10px 10px;
+}
+
+.icon-image a {
+  background: transparent;
+}
+
+.month dt {
+  padding: 5px;
+}
+
+.month table caption {
+  font-weight: bold;
+}
+
+.month .header {
+  display: none;
+}
+
+table.month {
+  width: 80%;
+  margin: 5px auto;
+}
+
+table.month th {
+  border-color: var(--darkAccent);
+  background: var(--darkAccent);
+  color: var(--lightAccent);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+table.month td {
+  border-color: var(--darkAccent);
+  vertical-align: top;
+  background: var(--lightAccent);
+}
+
+table.month td a {
+  font-weight: bold;
+}
+
+.month caption {
+  font: 30px var(--header);
+  color: var(--text);
+}
+
+.month .footer {
+  text-align: center;
+}
+
+.month .footer a {
+  color: var(--darkAccent);
+}
+
+.month .footer a:hover {
+  color: var(--lightAccent);
+}
+
+
+
+/* MOBILE */
+
+@media (max-width: 850px) {
+  #primary {
+    width: 95%;
+  }
+  #secondary {
+    display: none;
+  }
+}
