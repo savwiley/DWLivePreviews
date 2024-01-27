@@ -1,4 +1,10 @@
 [{
+  "pat22-extra": {
+    "Title": "Single Module",
+    "URL": "/DWLivePreviews/CSS/pat22-extra.css",
+    "Image": "/DWLivePreviews/Images/pat22-extra.PNG",
+    "Fonts": ["Roboto", "Hurricane"] 
+  },
   "pat22-theme": {
     "Title": "Just Green",
     "URL": "/DWLivePreviews/CSS/pat22-theme.css",
