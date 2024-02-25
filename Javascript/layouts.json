@@ -1,4 +1,16 @@
 [{
+  "pat23-extra": {
+    "Title": "Stamps",
+    "URL": "/DWLivePreviews/CSS/pat23-extra.css",
+    "Image": "/DWLivePreviews/Images/pat23-extra.PNG",
+    "Fonts": ["Roboto", "Pacifico"] 
+  },
+  "pat23-theme": {
+    "Title": "Photo Cards",
+    "URL": "/DWLivePreviews/CSS/pat23-theme.css",
+    "Image": "/DWLivePreviews/Images/pat23-theme.PNG",
+    "Fonts": ["Roboto", "Dancing+Script", "Major+Mono+Display"] 
+  },
   "pat22-extra": {
     "Title": "Single Module",
     "URL": "/DWLivePreviews/CSS/pat22-extra.css",
