@@ -1,0 +1,544 @@
+:root {
+  --background: #fff;
+  --text: #0F1035;
+  --accent1: #365486;
+  --accent2: #7FC7D9;
+  --accent3: #DCF2F1;
+
+  --font: 'Roboto', sans-serif;
+  --header: 'Pacifico', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, var(--background) 94%, var(--accent3) 94% 96%, var(--accent2) 96% 98%, var(--accent1) 90%) fixed;
+  color: var(--text);
+  font: 12px var(--font);
+}
+
+a {
+  color: var(--accent1);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent2);
+}
+
+input,
+select,
+button {
+  background: var(--background);
+  border: 2px solid var(--accent1);
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--text);
+}
+
+
+
+/* SCROLLBAR */
+/* will not work on all browsers - non-standard */
+
+::-webkit-scrollbar {
+  background: var(--background);
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent1);
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+
+/* HIGHLIGHT */
+
+::selection {
+  background: var(--text);
+  color: var(--background);
+}
+
+::-moz-selection {
+  background: var(--text);
+  color: var(--background);
+}
+
+
+
+/* CREDIT */
+
+body::after {
+  content: 'killthecake';
+  color: var(--accent1);
+  font-size: 7px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  position: fixed;
+  top: 8px;
+  right: 8px;
+  z-index: 2;
+}
+
+
+
+/* CONTROL STRIP */
+
+#lj_controlstrip {
+  display: none;
+}
+
+
+
+/* POP-UPS */
+
+.ljuser .ContextualPopup-trigger {
+  display: none;
+}
+
+.ljuser a:first-child {
+  padding: 0;
+}
+
+.ljuser a {
+  font: 10px var(--font);
+  text-transform: uppercase;
+  padding: 0 2px;
+  letter-spacing: 1px;
+}
+
+.ContextualPopup {
+  border: 2px solid var(--accent1);
+  background: var(--background);
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.4);
+  color: var(--text);
+}
+
+.ContextualPopup a {
+  color: var(--accent2);
+}
+
+
+
+/* HEADER */
+
+#pagetitle {
+  display: none;
+}
+
+#header {
+  text-align: center;
+}
+
+#title a {
+  font: 100px var(--header);
+  padding: 0 20px;
+  color: var(--text);
+  text-shadow: -4px 4px 0 var(--accent1), 
+               -8px 8px 0 var(--accent2), 
+               -12px 12px 0 var(--accent3);
+}
+
+#subtitle {
+  text-transform: uppercase;
+  letter-spacing: 22px;
+  font-size: 12px;
+  cursor: default;
+  margin-top: -40px;
+  text-shadow: -1px 1px 0 var(--accent1), 
+               -2px 2px 0 var(--accent2), 
+               -3px 3px 0 var(--accent3);
+}
+
+
+
+/* NAVIGATION */
+
+.topnav {
+  display: none;
+}
+
+.bottomnav {
+  font: 16px var(--header);
+  text-transform: lowercase;
+  font-weight: bold;
+  text-align: right;
+}
+
+.bottomnav a {
+  color: var(--accent1);
+  padding: 8px 16px;
+}
+
+.bottomnav a:hover {
+  color: var(--accent2);
+}
+
+.page-top a {
+  color: var(--background);
+  text-shadow: -1px 1px 2px var(--text);
+  font-weight: bold;
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+  z-index: 2;
+}
+
+.page-top a:hover {
+  color: var(--text);
+  text-shadow: -1px 1px 2px var(--background);
+}
+
+
+
+/* MODULES */
+
+.module h2,
+.module .manage-link, 
+.module-tags_cloud, 
+.module-tags_multilevel, 
+.module-tags_list,
+.module-cuttagcontrols, 
+.module-credit, 
+.module-customtext,
+.module-syndicate, 
+.module-subscriptionfilters, 
+.module-search, 
+.module-time, 
+.module-powered, 
+.module-pagesummary,
+.module-calendar, 
+.module-active,
+.module-userprofile, 
+#tertiary {
+  display: none;
+}
+
+#secondary {
+  position: fixed;
+  top: 20%;
+  font: 18px var(--header);
+  width: fit-content;
+}
+
+#secondary ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+#secondary li {
+  list-style-type: none;
+  margin: 2px 0;
+}
+
+#secondary a {
+  text-shadow: -1px 1px 2px var(--accent1);
+  color: var(--accent1);
+}
+
+#secondary a:hover {
+  color: var(--text);
+}
+
+
+
+/* PRIMARY */
+
+.comment-date-text,
+.comment-from-text,
+.comment-ip-text,
+.restrictions img,
+.access-filter img,
+.sticky-entry-icon,
+.entry .userpic,
+.comment .userpic,
+.entry .time {
+  display: none;
+}
+
+#primary {
+  width: 60%;
+  margin: 25px auto 0;
+}
+
+.entry {
+  margin-bottom: 60px;
+  outline: 15px dotted var(--background);
+  box-shadow: 0 0 0 8px var(--accent1);
+  padding: 20px;
+  background: linear-gradient(135deg, var(--background) 94%, var(--accent3) 94% 96%, var(--accent2) 96% 98%, var(--accent1) 90%);
+}
+
+.entry .entry-title {
+  padding: 0;
+  margin: 0;
+  font: 38px var(--header);
+  text-shadow: -2px 2px 2px var(--accent1);
+  color: var(--accent1);
+}
+
+.entry .entry-title a {
+  color: var(--accent1);
+}
+
+.entry .entry-title a:hover {
+  color: var(--text);
+  text-shadow: -2px 2px 2px var(--accent1);
+}
+
+.entry .date {
+  color: var(--accent2);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.access-filter,
+.restrictions {
+  display: block;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 10px;
+  color: var(--accent1);
+  text-transform: uppercase;
+}
+
+.security-protected .access-filter:before {
+  content: "locked";
+}
+
+.security-private .access-filter:before {
+  content: "private";
+}
+
+.restrictions-NSFW .restrictions:before {
+  content:"nsfw";
+}
+
+.restrictions-18 .restrictions:before {
+  content:"18+";
+}
+
+.entry .entry-content {
+  padding: 10px 0;
+  text-align: justify;
+}
+
+.entry .entry-content a {
+  text-decoration: underline;
+}
+
+.entry .footer {
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: bold;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.entry .tag {
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.entry-management-links, 
+.entry-interaction-links,
+.comment-management-links, 
+.comment-interaction-links {
+  display: inline;
+  text-transform: uppercase;
+}
+
+.entry-management-links a, 
+.entry-interaction-links a,
+.comment-management-links a, 
+.comment-interaction-links a {
+  padding: 0 4px;
+  border: 1px solid transparent;
+}
+
+.comment {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 3px dotted var(--accent1);
+}
+
+.comment .comment-content {
+  padding: 5px 0;
+  text-align: justify;
+}
+
+.comment .datetime,
+.comment .poster-ip {
+  font-weight: bold;
+  cursor: default;
+}
+
+.comment .header {
+  padding-bottom: 10px;
+}
+
+.comment .footer {
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.comment-pages {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.bottomcomment,
+.comment-pages {
+  text-align: center;
+}
+
+.bottomcomment a,
+.comment-pages a {
+  padding: 0 2px;
+  font-weight: normal;
+  font-weight: bold;
+}
+
+.bottomcomment .entry-management-links, 
+.bottomcomment .entry-interaction-links {
+  display: block;
+  text-align: center;
+}
+
+.noentries {
+  text-align: center;
+  font-weight: bold;
+  cursor: default;
+}
+
+
+
+/* ARCHIVE, TAGS, ICONS */
+
+.empty {
+  display: none;
+}
+
+.header h2 {
+  text-decoration: none;
+  cursor: default;
+  font: 50px var(--header);
+  margin: 0;
+  padding: 0;
+}
+
+.tags-container,
+.icons-container,
+.month-wrapper {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#archive-month {
+  padding: 1px 12px;
+  margin-top: 20px;
+}
+
+.tags-container,
+.icons-container,
+#archive-month {
+  margin-bottom: 40px;
+  padding: 30px;
+}
+
+.tags-container .inner,
+.icons-container .inner {
+  padding: 2px 5px 5px;
+}
+
+.icon-image, 
+.icon-info {
+  display: inline-block;
+  padding: 10px 0 10px 10px;
+}
+
+.icon-image a {
+  background: transparent;
+}
+
+.month dt {
+  padding: 5px;
+}
+
+.month table caption {
+  font-weight: bold;
+}
+
+.month .header {
+  display: none;
+}
+
+table.month {
+  width: 80%;
+  margin: 5px auto;
+}
+
+table.month th {
+  border-color: var(--text);
+  background: var(--text);
+  color: var(--background);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+table.month td {
+  border-color: var(--text);
+  vertical-align: top;
+}
+
+table.month td a {
+  font-weight: bold;
+}
+
+.month caption {
+  font: 50px var(--header);
+}
+
+.month .footer {
+  text-align: center;
+}
+
+.month .footer a {
+  color: var(--text);
+}
+
+
+
+/* MOBILE */
+
+@media (max-width: 1100px) {
+  #primary {
+    width: 90%;
+  }
+  #secondary {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  #secondary ul {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  #secondary li {
+    padding: 0 5px;
+  }
+}
