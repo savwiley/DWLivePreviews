@@ -1,4 +1,16 @@
 [{
+  "pat24-extra": {
+    "Title": "Mono-Modules",
+    "URL": "/DWLivePreviews/CSS/pat24-extra.css",
+    "Image": "/DWLivePreviews/Images/pat24-extra.PNG",
+    "Fonts": ["Roboto", "Potta+One"] 
+  },
+  "pat24-theme": {
+    "Title": "Shakespearean",
+    "URL": "/DWLivePreviews/CSS/pat24-theme.css",
+    "Image": "/DWLivePreviews/Images/pat24-theme.PNG",
+    "Fonts": ["Roboto", "Protest+Revolution"] 
+  },
   "pat23-extra": {
     "Title": "Stamps",
     "URL": "/DWLivePreviews/CSS/pat23-extra.css",
