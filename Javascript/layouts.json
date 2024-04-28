@@ -1,4 +1,16 @@
 [{
+  "pat25-extra": {
+    "Title": "Single Image",
+    "URL": "/DWLivePreviews/CSS/pat25-extra.css",
+    "Image": "/DWLivePreviews/Images/pat25-extra.PNG",
+    "Fonts": ["Roboto", "Oswald"] 
+  },
+  "pat25-theme": {
+    "Title": "90's Retro",
+    "URL": "/DWLivePreviews/CSS/pat25-theme.css",
+    "Image": "/DWLivePreviews/Images/pat25-theme.PNG",
+    "Fonts": ["Handjet", "Nova+Mono"] 
+  },
   "pat24-extra": {
     "Title": "Mono-Modules",
     "URL": "/DWLivePreviews/CSS/pat24-extra.css",
