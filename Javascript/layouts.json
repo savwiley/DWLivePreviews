@@ -1,4 +1,16 @@
 [{
+  "pat26-extra": {
+    "Title": "Blue Petals",
+    "URL": "/DWLivePreviews/CSS/pat26-extra.css",
+    "Image": "/DWLivePreviews/Images/pat26-extra.PNG",
+    "Fonts": ["Roboto", "Pacifico"] 
+  },
+  "pat26-theme": {
+    "Title": "Nocturnal Spring",
+    "URL": "/DWLivePreviews/CSS/pat26-theme.css",
+    "Image": "/DWLivePreviews/Images/pat26-theme.PNG",
+    "Fonts": ["Roboto", "Jacquard+12"] 
+  },
   "pat25-extra": {
     "Title": "Single Image",
     "URL": "/DWLivePreviews/CSS/pat25-extra.css",
