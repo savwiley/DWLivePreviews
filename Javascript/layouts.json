@@ -1,4 +1,16 @@
 [{
+  "pat27-extra": {
+    "Title": "Blur",
+    "URL": "/DWLivePreviews/CSS/pat27-extra.css",
+    "Image": "/DWLivePreviews/Images/pat27-extra.PNG",
+    "Fonts": ["Roboto", "Nova+Mono"] 
+  },
+  "pat27-theme": {
+    "Title": "Rotating Rainbow",
+    "URL": "/DWLivePreviews/CSS/pat27-theme.css",
+    "Image": "/DWLivePreviews/Images/pat27-theme.PNG",
+    "Fonts": ["Roboto", "Gruppo"] 
+  },
   "pat26-extra": {
     "Title": "Blue Petals",
     "URL": "/DWLivePreviews/CSS/pat26-extra.css",
