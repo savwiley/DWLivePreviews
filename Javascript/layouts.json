@@ -1,4 +1,16 @@
 [{
+  "pat28-extra": {
+    "Title": "Ink",
+    "URL": "/DWLivePreviews/CSS/pat28-extra.css",
+    "Image": "/DWLivePreviews/Images/pat28-extra.PNG",
+    "Fonts": ["Roboto", "Sedgwick+Ave+Display"] 
+  },
+  "pat28-theme": {
+    "Title": "Festival Fireworks",
+    "URL": "/DWLivePreviews/CSS/pat28-theme.css",
+    "Image": "/DWLivePreviews/Images/pat28-theme.PNG",
+    "Fonts": ["Roboto", "Indie+Flower"] 
+  },
   "pat27-extra": {
     "Title": "Blur",
     "URL": "/DWLivePreviews/CSS/pat27-extra.css",
