@@ -338,8 +338,8 @@ body::after {
 .comment {
   padding: 10px;
   margin-bottom: 10px;
-  border: 5px solid var(--accent2);
-  border-radius: 3px;
+  background: var(--background);
+  border: 3px solid var(--accent2);
 }
 
 .comment .comment-content {
@@ -424,8 +424,8 @@ body::after {
 #archive-month {
   margin-bottom: 40px;
   padding: 30px;
-  border: 15px solid var(--accent2);
-  border-radius: 3px;
+  background: var(--background);
+  border: 3px solid var(--accent2);
 }
 
 .tags-container .inner,
@@ -481,6 +481,8 @@ table.month td a {
 
 .month caption {
   font: 35px var(--header);
+  color: var(--text);
+  text-shadow: 0 0 4px var(--background);
 }
 
 .month .footer {
