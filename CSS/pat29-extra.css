@@ -1,0 +1,455 @@
+:root {
+  --background: #001484;
+  --text: #ccc;
+  --backgroundO: rgba(0, 20, 132, 0.6);
+
+  --texture: url('https://www.transparenttextures.com/patterns/old-mathematics.png') fixed;
+
+  --font: 'Roboto', sans-serif;
+  --font2: 'Indie Flower', sans-serif;
+  --header: 'Fredericka the Great', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font: 12px var(--font);
+  color: var(--text);
+  background: var(--texture), var(--background);
+}
+
+a {
+  color: var(--text);
+  font-family: var(--font2);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  font-family: var(--font);
+}
+
+input,
+select,
+button {
+  background: var(--background);
+  border: 2px solid var(--text);
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--text);
+}
+
+
+
+/* SCROLLBAR */
+/* will not work on all browsers - non-standard */
+
+::-webkit-scrollbar {
+  background: var(--background);
+  width: 2px;
+  height: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text);
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+
+/* HIGHLIGHT */
+
+::selection,
+::-moz-selection {
+  background: var(--text);
+  color: var(--background);
+}
+
+
+
+/* CREDIT */
+
+body::after {
+  content: 'killthecake';
+  color: var(--text);
+  text-transform: uppercase;
+  font-size: 6px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+  z-index: 5;
+}
+
+
+
+/* CONTROL STRIP */
+
+#lj_controlstrip {
+  display: none;
+}
+
+
+
+/* POP-UPS */
+
+.ljuser .ContextualPopup-trigger {
+  display: none;
+}
+
+.ljuser::before {
+  content: "x";
+  color: var(--text);
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.ljuser a:first-child {
+  padding: 0;
+}
+
+.ljuser a {
+  font-family: var(--font);
+  text-transform: uppercase;
+  font-size: 10px;
+  padding: 0 2px;
+  letter-spacing: 1px;
+}
+
+.ContextualPopup {
+  border: 5px solid var(--text);
+  background: var(--background);
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.4);
+  color: var(--text);
+}
+
+.ContextualPopup a {
+  color: var(--text);
+}
+
+
+
+/* HEADER */
+
+#header {
+  display: none;
+}
+
+
+
+/* NAVIGATION */
+
+.topnav,
+.page-top {
+  display: none;
+}
+
+.bottomnav {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bottomnav a {
+  font-family: var(--font);
+}
+
+
+
+/* MODULES */
+
+#secondary,
+#tertiary{
+  display: none;
+}
+
+
+
+/* ENTRIES */
+
+.comment-date-text,
+.comment-from-text,
+.comment-ip-text,
+.restrictions img,
+.access-filter img,
+.sticky-entry-icon,
+.entry .userpic,
+.comment .userpic {
+  display: none;
+}
+
+#primary {
+  position: fixed;
+  top: 50px;
+  bottom: 50px;
+  left: 20%;
+  width: 60%;
+  overflow-y: auto;
+  background: var(--backgroundO);
+  border: 15px solid transparent;
+  outline: 1px solid var(--text);
+}
+
+.entry {
+  border-bottom: 1px solid var(--text);
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+
+.entry .entry-title,
+.entry .entry-title a {
+  font: 35px var(--header);
+  margin: 0;
+  padding: 0;
+}
+
+.entry .datetime {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.entry .datetime a {
+  font-family: var(--font);
+}
+
+.access-filter,
+.restrictions {
+  display: block;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-variant: small-caps;
+  padding-right: 2px;
+  font-size: 12px;
+  color: var(--text);
+}
+
+.security-protected .access-filter:before {
+  content: "locked";
+}
+
+.security-private .access-filter:before {
+  content: "private";
+}
+
+.restrictions-NSFW .restrictions:before {
+  content:"nsfw";
+}
+
+.restrictions-18 .restrictions:before {
+  content:"18+";
+}
+
+.entry .entry-content {
+  padding: 20px 0;
+  text-align: justify;
+  line-height: 15px;
+}
+
+.entry .footer {
+  font-size: 10px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.entry .tag {
+  float: left;
+}
+
+.entry-management-links, 
+.entry-interaction-links,
+.comment-management-links, 
+.comment-interaction-links {
+  display: inline;
+}
+
+.entry-management-links a, 
+.entry-interaction-links a,
+.comment-management-links a, 
+.comment-interaction-links a {
+  padding: 0 2px;
+}
+
+.comment {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--text);
+}
+
+.comment .comment-content {
+  padding: 5px 0;
+  text-align: justify;
+}
+
+.comment .datetime,
+.comment .poster-ip {
+  font-weight: bold;
+  cursor: default;
+}
+
+.comment .header {
+  padding-bottom: 10px;
+}
+
+.comment .footer {
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.comment-pages {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.bottomcomment,
+.comment-pages {
+  text-align: center;
+}
+
+.bottomcomment a,
+.comment-pages a {
+  padding: 0 2px;
+  font-weight: normal;
+  font-weight: bold;
+}
+
+.bottomcomment .entry-management-links, 
+.bottomcomment .entry-interaction-links {
+  display: block;
+  text-align: center;
+}
+
+.noentries {
+  text-align: center;
+  font-weight: bold;
+  cursor: default;
+}
+
+
+
+/* ARCHIVE, TAGS, ICONS */
+
+.empty {
+  display: none;
+}
+
+.header h2 {
+  text-decoration: none;
+  cursor: default;
+  font: 35px var(--header);
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.tags-container,
+.icons-container,
+.month-wrapper {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#archive-month {
+  padding: 1px 12px;
+  margin-top: 20px;
+}
+
+.tags-container,
+.icons-container,
+#archive-month {
+  margin-bottom: 40px;
+  padding: 30px;
+}
+
+.tags-container .inner,
+.icons-container .inner {
+  padding: 2px 5px 5px;
+}
+
+.icon-image, 
+.icon-info {
+  display: inline-block;
+  padding: 10px 0 10px 10px;
+}
+
+.icon-image a {
+  background: transparent;
+}
+
+.month dt {
+  padding: 5px;
+}
+
+.month table caption {
+  font-weight: bold;
+}
+
+.month .header {
+  display: none;
+}
+
+table.month {
+  width: 80%;
+  margin: 5px auto;
+}
+
+table.month th {
+  border-color: var(--text);
+  background: var(--text);
+  color: var(--background);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+table.month td {
+  border-color: var(--text);
+  background: var(--backgroundO);
+  vertical-align: top;
+}
+
+table.month td a {
+  font-weight: bold;
+}
+
+.month caption {
+  font: 35px var(--header);
+  font-weight: normal;
+  color: var(--text);
+}
+
+.month .footer {
+  text-align: center;
+}
+
+.month .footer a {
+  color: var(--text);
+}
+
+.month .footer a:hover {
+  color: var(--text);
+}
+
+
+
+/* MOBILE */
+
+@media (max-width: 1000px) {
+  #primary {
+    top: 25px;
+    bottom: 25px;
+    left: 0;
+    margin: auto;
+    position: relative;
+    width: 90%;
+  }
+}
