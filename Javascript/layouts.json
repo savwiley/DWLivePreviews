@@ -1,4 +1,16 @@
 [{
+  "pat29-extra": {
+    "Title": "Blueprint",
+    "URL": "/DWLivePreviews/CSS/pat29-extra.css",
+    "Image": "/DWLivePreviews/Images/pat29-extra.PNG",
+    "Fonts": ["Roboto", "Indie+Flower", "Fredericka+the+Great"] 
+  },
+  "pat29-theme": {
+    "Title": "White & Rainbows",
+    "URL": "/DWLivePreviews/CSS/pat29-theme.css",
+    "Image": "/DWLivePreviews/Images/pat29-theme.PNG",
+    "Fonts": ["Roboto", "Poiret+One"] 
+  },
   "pat28-extra": {
     "Title": "Ink",
     "URL": "/DWLivePreviews/CSS/pat28-extra.css",
