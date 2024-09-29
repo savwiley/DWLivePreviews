@@ -1,4 +1,16 @@
 [{
+  "pat30-extra": {
+    "Title": "Top Secret",
+    "URL": "/DWLivePreviews/CSS/pat30-extra.css",
+    "Image": "/DWLivePreviews/Images/pat30-extra.PNG",
+    "Fonts": ["Roboto", "Courier+Prime"] 
+  },
+  "pat30-theme": {
+    "Title": "Flower Garden",
+    "URL": "/DWLivePreviews/CSS/pat30-theme.css",
+    "Image": "/DWLivePreviews/Images/pat30-theme.PNG",
+    "Fonts": ["Roboto", "Pacifico"] 
+  },
   "pat29-extra": {
     "Title": "Blueprint",
     "URL": "/DWLivePreviews/CSS/pat29-extra.css",
