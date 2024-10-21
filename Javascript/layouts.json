@@ -1,4 +1,16 @@
 [{
+  "pat31-extra": {
+    "Title": "Minimal Transparency",
+    "URL": "/DWLivePreviews/CSS/pat31-extra.css",
+    "Image": "/DWLivePreviews/Images/pat31-extra.PNG",
+    "Fonts": ["Roboto", "Amatic+SC"] 
+  },
+  "pat31-theme": {
+    "Title": "Gothic Rose",
+    "URL": "/DWLivePreviews/CSS/pat31-theme.css",
+    "Image": "/DWLivePreviews/Images/pat31-theme.PNG",
+    "Fonts": ["Roboto", "Pirata+One"] 
+  },
   "pat30-extra": {
     "Title": "Top Secret",
     "URL": "/DWLivePreviews/CSS/pat30-extra.css",
