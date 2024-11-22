@@ -1,4 +1,16 @@
 [{
+  "pat32-extra": {
+    "Title": "Mono-Gray",
+    "URL": "/DWLivePreviews/CSS/pat32-extra.css",
+    "Image": "/DWLivePreviews/Images/pat32-extra.PNG",
+    "Fonts": [] 
+  },
+  "pat32-theme": {
+    "Title": "Pink & Blue",
+    "URL": "/DWLivePreviews/CSS/pat32-theme.css",
+    "Image": "/DWLivePreviews/Images/pat32-theme.PNG",
+    "Fonts": ["Roboto", "Pacifico"] 
+  },
   "pat31-extra": {
     "Title": "Minimal Transparency",
     "URL": "/DWLivePreviews/CSS/pat31-extra.css",
