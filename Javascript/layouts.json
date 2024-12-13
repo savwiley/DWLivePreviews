@@ -1,4 +1,10 @@
 [{
+  "adventD01_24": {
+    "Title": "Howling",
+    "URL": "/DWLivePreviews/CSS/adventD01_24.css",
+    "Image": "/DWLivePreviews/Images/adventD01_24.PNG",
+    "Fonts": ["Roboto", "Sedgwick+Ave+Display"] 
+  },
   "pat32-extra": {
     "Title": "Mono-Gray",
     "URL": "/DWLivePreviews/CSS/pat32-extra.css",
