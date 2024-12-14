@@ -1,4 +1,22 @@
 [{
+  "adventD12_24": {
+    "Title": "Heavy is the Crown",
+    "URL": "/DWLivePreviews/CSS/adventD12_24.css",
+    "Image": "/DWLivePreviews/Images/adventD12_24.PNG",
+    "Fonts": ["Roboto", "Gabriela"] 
+  },
+  "adventD07_24": {
+    "Title": "Heatstroke",
+    "URL": "/DWLivePreviews/CSS/adventD07_24.css",
+    "Image": "/DWLivePreviews/Images/adventD07_24.PNG",
+    "Fonts": ["Roboto", "Courier+Prime"] 
+  },
+  "adventD03_24": {
+    "Title": "Mamushi",
+    "URL": "/DWLivePreviews/CSS/adventD03_24.css",
+    "Image": "/DWLivePreviews/Images/adventD03_24.PNG",
+    "Fonts": ["Protest+Revolution"] 
+  },
   "adventD01_24": {
     "Title": "Howling",
     "URL": "/DWLivePreviews/CSS/adventD01_24.css",
