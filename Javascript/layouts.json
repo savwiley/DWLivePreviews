@@ -1,4 +1,16 @@
 [{
+  "pat33-extra": {
+    "Title": "Catch Waves",
+    "URL": "/DWLivePreviews/CSS/pat33-extra.css",
+    "Image": "/DWLivePreviews/Images/pat33-extra.PNG",
+    "Fonts": ["Abel", "Nova+Mono"] 
+  },
+  "pat33-theme": {
+    "Title": "Snowglobe",
+    "URL": "/DWLivePreviews/CSS/pat33-theme.css",
+    "Image": "/DWLivePreviews/Images/pat33-theme.PNG",
+    "Fonts": ["Roboto", "Croissant+One"] 
+  },
   "adventD12_24": {
     "Title": "Heavy is the Crown",
     "URL": "/DWLivePreviews/CSS/adventD12_24.css",
