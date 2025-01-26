@@ -1,4 +1,16 @@
 [{
+  "pat34-extra": {
+    "Title": "Tokyo Night",
+    "URL": "/DWLivePreviews/CSS/pat34-extra.css",
+    "Image": "/DWLivePreviews/Images/pat34-extra.PNG",
+    "Fonts": ["Abel"] 
+  },
+  "pat34-theme": {
+    "Title": "Fluffy Clouds",
+    "URL": "/DWLivePreviews/CSS/pat34-theme.css",
+    "Image": "/DWLivePreviews/Images/pat34-theme.PNG",
+    "Fonts": ["Abel", "Fredericka+the+Great"] 
+  },
   "pat33-extra": {
     "Title": "Catch Waves",
     "URL": "/DWLivePreviews/CSS/pat33-extra.css",
