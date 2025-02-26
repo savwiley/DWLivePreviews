@@ -1,4 +1,16 @@
 [{
+  "pat35-extra": {
+    "Title": "Pink Donuts",
+    "URL": "/DWLivePreviews/CSS/pat35-extra.css",
+    "Image": "/DWLivePreviews/Images/pat35-extra.PNG",
+    "Fonts": ["Roboto", "Flavors"] 
+  },
+  "pat35-theme": {
+    "Title": "Old Parchment",
+    "URL": "/DWLivePreviews/CSS/pat35-theme.css",
+    "Image": "/DWLivePreviews/Images/pat35-theme.PNG",
+    "Fonts": ["Roboto", "Eagle+Lake"] 
+  },
   "pat34-extra": {
     "Title": "Tokyo Night",
     "URL": "/DWLivePreviews/CSS/pat34-extra.css",
