@@ -2,13 +2,13 @@
   "pat37-extra": {
     "Title": "Bright Colors",
     "URL": "/DWLivePreviews/CSS/pat37-extra.css",
-    "Image": "/DWLivePreviews/Images/pat37-extra1.PNG",
+    "Image": "/DWLivePreviews/Images/pat37-extra1.png",
     "Fonts": ["Roboto", "Doto"] 
   },
   "pat37-theme": {
     "Title": "Rubik's Cube",
     "URL": "/DWLivePreviews/CSS/pat37-theme.css",
-    "Image": "/DWLivePreviews/Images/pat37-theme.PNG",
+    "Image": "/DWLivePreviews/Images/pat37-theme.png",
     "Fonts": ["Roboto", "Plaster"] 
   },
   "pat36-extra": {
