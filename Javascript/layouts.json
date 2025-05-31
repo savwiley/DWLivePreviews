@@ -1,4 +1,16 @@
 [{
+  "pat38-extra": {
+    "Title": "Neon Lights",
+    "URL": "/DWLivePreviews/CSS/pat38-extra.css",
+    "Image": "/DWLivePreviews/Images/pat38-extra.png",
+    "Fonts": ["Roboto", "Vibur"] 
+  },
+  "pat38-theme": {
+    "Title": "Club Demons",
+    "URL": "/DWLivePreviews/CSS/pat38-theme.css",
+    "Image": "/DWLivePreviews/Images/pat38-theme.png",
+    "Fonts": ["Roboto", "Eater"] 
+  },
   "pat37-extra": {
     "Title": "Bright Colors",
     "URL": "/DWLivePreviews/CSS/pat37-extra.css",
