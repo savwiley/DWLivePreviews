@@ -1,4 +1,16 @@
 [{
+  "pat39-extra": {
+    "Title": "Rainbow Shadows",
+    "URL": "/DWLivePreviews/CSS/pat39-extra.css",
+    "Image": "/DWLivePreviews/Images/pat39-extra.png",
+    "Fonts": ["Roboto", "Orbit"] 
+  },
+  "pat39-theme": {
+    "Title": "Whites & Blacks",
+    "URL": "/DWLivePreviews/CSS/pat39-theme.css",
+    "Image": "/DWLivePreviews/Images/pat39-theme.png",
+    "Fonts": ["Inconsolata"] 
+  },
   "pat38-extra": {
     "Title": "Neon Lights",
     "URL": "/DWLivePreviews/CSS/pat38-extra.css",
