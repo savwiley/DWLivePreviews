@@ -1,4 +1,16 @@
 [{
+  "pat40-extra": {
+    "Title": "Palette",
+    "URL": "/DWLivePreviews/CSS/pat40-extra.css",
+    "Image": "/DWLivePreviews/Images/pat40-extra.png",
+    "Fonts": ["Roboto", "Orbit"] 
+  },
+  "pat40-theme": {
+    "Title": "Cool Colors",
+    "URL": "/DWLivePreviews/CSS/pat40-theme.css",
+    "Image": "/DWLivePreviews/Images/pat40-theme.png",
+    "Fonts": ["Roboto", "Doto"] 
+  },
   "pat39-extra": {
     "Title": "Rainbow Shadows",
     "URL": "/DWLivePreviews/CSS/pat39-extra.css",
