@@ -1,4 +1,16 @@
 [{
+  "pat41-extra": {
+    "Title": "Mono-Rainbow",
+    "URL": "/DWLivePreviews/CSS/pat41-extra.css",
+    "Image": "/DWLivePreviews/Images/pat41-extra.png",
+    "Fonts": ["Inconsolata"] 
+  },
+  "pat41-theme": {
+    "Title": "Column Cards",
+    "URL": "/DWLivePreviews/CSS/pat41-theme.css",
+    "Image": "/DWLivePreviews/Images/pat41-theme.png",
+    "Fonts": ["Roboto", "Fleur+De+Leah"] 
+  },
   "pat40-extra": {
     "Title": "Palette",
     "URL": "/DWLivePreviews/CSS/pat40-extra.css",
@@ -582,3 +594,4 @@
     "Fonts": ["Staatliches", "Oswald"]
   }
 }]
+
