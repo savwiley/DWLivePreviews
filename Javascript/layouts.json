@@ -1,4 +1,16 @@
 [{
+  "pat42-extra": {
+    "Title": "Good Kid",
+    "URL": "/DWLivePreviews/CSS/pat42-extra.css",
+    "Image": "/DWLivePreviews/Images/pat42-extra.png",
+    "Fonts": ["Gloria+Hallelujah"] 
+  },
+  "pat42-theme": {
+    "Title": "Planet",
+    "URL": "/DWLivePreviews/CSS/pat42-theme.css",
+    "Image": "/DWLivePreviews/Images/pat42-theme.png",
+    "Fonts": ["Roboto", "Special+Elite"] 
+  },
   "pat41-extra": {
     "Title": "Mono-Rainbow",
     "URL": "/DWLivePreviews/CSS/pat41-extra.css",
@@ -594,4 +606,5 @@
     "Fonts": ["Staatliches", "Oswald"]
   }
 }]
+
 
