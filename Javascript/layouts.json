@@ -1,4 +1,16 @@
 [{
+  "pat43-extra": {
+    "Title": "Clean Site",
+    "URL": "/DWLivePreviews/CSS/pat43-extra.css",
+    "Image": "/DWLivePreviews/Images/pat43-extra.png",
+    "Fonts": ["Roboto", "Plaster"] 
+  },
+  "pat43-theme": {
+    "Title": "SONOGONG",
+    "URL": "/DWLivePreviews/CSS/pat43-theme.css",
+    "Image": "/DWLivePreviews/Images/pat43-theme.png",
+    "Fonts": ["Roboto", "Cherish"] 
+  },
   "pat42-extra": {
     "Title": "Good Kid",
     "URL": "/DWLivePreviews/CSS/pat42-extra.css",
@@ -606,5 +618,6 @@
     "Fonts": ["Staatliches", "Oswald"]
   }
 }]
+
 
 
