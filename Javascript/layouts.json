@@ -1,4 +1,16 @@
 [{
+  "pat44-extra": {
+    "Title": "Blue Strip",
+    "URL": "/DWLivePreviews/CSS/pat44-extra.css",
+    "Image": "/DWLivePreviews/Images/pat44-extra.png",
+    "Fonts": ["Roboto", "Vibur"] 
+  },
+  "pat44-theme": {
+    "Title": "Cups",
+    "URL": "/DWLivePreviews/CSS/pat44-theme.css",
+    "Image": "/DWLivePreviews/Images/pat44-theme.png",
+    "Fonts": ["Roboto", "Tourney", "Fleur+De+Leah"] 
+  },
   "pat43-extra": {
     "Title": "Clean Site",
     "URL": "/DWLivePreviews/CSS/pat43-extra.css",
@@ -618,6 +630,7 @@
     "Fonts": ["Staatliches", "Oswald"]
   }
 }]
+
 
 
 
