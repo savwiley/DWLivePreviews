@@ -1,4 +1,16 @@
 [{
+  "pat45-extra": {
+    "Title": "Forever Rainbows",
+    "URL": "/DWLivePreviews/CSS/pat45-extra.css",
+    "Image": "/DWLivePreviews/Images/pat45-extra.png",
+    "Fonts": ["Roboto"] 
+  },
+  "pat45-theme": {
+    "Title": "LoZ",
+    "URL": "/DWLivePreviews/CSS/pat45-theme.css",
+    "Image": "/DWLivePreviews/Images/pat45-theme.png",
+    "Fonts": ["Roboto", "Engagement"] 
+  },
   "pat44-extra": {
     "Title": "Blue Strip",
     "URL": "/DWLivePreviews/CSS/pat44-extra.css",
@@ -630,6 +642,7 @@
     "Fonts": ["Staatliches", "Oswald"]
   }
 }]
+
 
 
 
