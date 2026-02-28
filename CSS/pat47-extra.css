@@ -5,7 +5,7 @@
 
   --backgroundTexture: url('https://www.transparenttextures.com/patterns/grilled-noise.png') fixed;
 
-  --backgroundImage: center/cover url('../91iiJrfq4pL.jpg') fixed;
+  --backgroundImage: center/cover url('https://i.ibb.co/fVVRdmJn/91ii-Jrfq4p-L.jpg') fixed;
 
   --font: 'Roboto', sans-serif;
   --header: 'Inconsolata', monospace;
@@ -450,4 +450,5 @@ table.month td a {
   #primary {
     width: 95%;
   }
+
 }
