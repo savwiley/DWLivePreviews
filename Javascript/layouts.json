@@ -1,4 +1,16 @@
 [{
+  "pat47-extra": {
+    "Title": "Jellies",
+    "URL": "/DWLivePreviews/CSS/pat47-extra.css",
+    "Image": "/DWLivePreviews/Images/pat47-extra.png",
+    "Fonts": ["Roboto", "Inconsolata"] 
+  },
+  "pat47-theme": {
+    "Title": "Moon Rise",
+    "URL": "/DWLivePreviews/CSS/pat47-theme.css",
+    "Image": "/DWLivePreviews/Images/pat47-theme.png",
+    "Fonts": ["Roboto", "Inconsolata"] 
+  },
   "pat46-extra": {
     "Title": "Dusk",
     "URL": "/DWLivePreviews/CSS/pat46-extra.css",
@@ -654,6 +666,7 @@
     "Fonts": ["Staatliches", "Oswald"]
   }
 }]
+
 
 
 
