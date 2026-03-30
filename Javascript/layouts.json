@@ -1,4 +1,16 @@
 [{
+  "pat48-extra": {
+    "Title": "Poison",
+    "URL": "/DWLivePreviews/CSS/pat48-extra.css",
+    "Image": "/DWLivePreviews/Images/pat48-extra.png",
+    "Fonts": ["Roboto", "Unica+One"] 
+  },
+  "pat48-theme": {
+    "Title": "Adrian",
+    "URL": "/DWLivePreviews/CSS/pat48-theme.css",
+    "Image": "/DWLivePreviews/Images/pat48-theme.png",
+    "Fonts": ["Roboto", "Audiowide"] 
+  },
   "pat47-extra": {
     "Title": "Jellies",
     "URL": "/DWLivePreviews/CSS/pat47-extra.css",
