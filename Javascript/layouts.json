@@ -1,4 +1,16 @@
 [{
+  "pat49-extra": {
+    "Title": "BiPride",
+    "URL": "/DWLivePreviews/CSS/pat49-extra.css",
+    "Image": "/DWLivePreviews/Images/pat49-extra.png",
+    "Fonts": ["Roboto", "Molle:ital@1"] 
+  },
+  "pat49-theme": {
+    "Title": "Thanks!",
+    "URL": "/DWLivePreviews/CSS/pat49-theme.css",
+    "Image": "/DWLivePreviews/Images/pat49-theme.png",
+    "Fonts": ["Roboto", "Sniglet", "Knewave"] 
+  },
   "pat48-extra": {
     "Title": "Poison",
     "URL": "/DWLivePreviews/CSS/pat48-extra.css",
