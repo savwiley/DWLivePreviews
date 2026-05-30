@@ -1,4 +1,16 @@
 [{
+  "pat50-extra": {
+    "Title": "Floral Roses",
+    "URL": "/DWLivePreviews/CSS/pat50-extra.css",
+    "Image": "/DWLivePreviews/Images/pat50-extra.png",
+    "Fonts": ["Roboto", "Fleur+De+Leah"] 
+  },
+  "pat50-theme": {
+    "Title": "V8 Graffiti",
+    "URL": "/DWLivePreviews/CSS/pat50-theme.css",
+    "Image": "/DWLivePreviews/Images/pat50-theme.png",
+    "Fonts": ["Roboto", "Barrio"] 
+  },
   "pat49-extra": {
     "Title": "BiPride",
     "URL": "/DWLivePreviews/CSS/pat49-extra.css",
