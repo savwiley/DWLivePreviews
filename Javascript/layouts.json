@@ -1,4 +1,16 @@
 [{
+  "pat51-extra": {
+    "Title": "Multicolor Monochrome",
+    "URL": "/DWLivePreviews/CSS/pat51-extra.css",
+    "Image": "/DWLivePreviews/Images/pat51-extra.png",
+    "Fonts": ["Roboto", "Knewave"] 
+  },
+  "pat51-theme": {
+    "Title": "Lemonade Sunset",
+    "URL": "/DWLivePreviews/CSS/pat51-theme.css",
+    "Image": "/DWLivePreviews/Images/pat51-theme.png",
+    "Fonts": ["Roboto", "Vibur"] 
+  },
   "pat50-extra": {
     "Title": "Floral Roses",
     "URL": "/DWLivePreviews/CSS/pat50-extra.css",
