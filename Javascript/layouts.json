@@ -1,4 +1,16 @@
 [{
+  "pat52-extra": {
+    "Title": "Mono-Window",
+    "URL": "/DWLivePreviews/CSS/pat52-extra.css",
+    "Image": "/DWLivePreviews/Images/pat52-extra.png",
+    "Fonts": ["Roboto", "Orbit"] 
+  },
+  "pat52-theme": {
+    "Title": "Lemonade Sunrise",
+    "URL": "/DWLivePreviews/CSS/pat52-theme.css",
+    "Image": "/DWLivePreviews/Images/pat52-theme.png",
+    "Fonts": ["Roboto", "Vibur"] 
+  },
   "pat51-extra": {
     "Title": "Multicolor Monochrome",
     "URL": "/DWLivePreviews/CSS/pat51-extra.css",
