@@ -1,4 +1,16 @@
 [{
+  "pat53-extra": {
+    "Title": "Textured Rainbows",
+    "URL": "/DWLivePreviews/CSS/pat53-extra.css",
+    "Image": "/DWLivePreviews/Images/pat53-extra.png",
+    "Fonts": ["Roboto", "Coral+Pixels"] 
+  },
+  "pat53-theme": {
+    "Title": "Ice Cream",
+    "URL": "/DWLivePreviews/CSS/pat53-theme.css",
+    "Image": "/DWLivePreviews/Images/pat53-theme.png",
+    "Fonts": ["Roboto", "Gloria+Hallelujah", "Pacifico"] 
+  },
   "pat52-extra": {
     "Title": "Mono-Window",
     "URL": "/DWLivePreviews/CSS/pat52-extra.css",
