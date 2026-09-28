@@ -4,7 +4,7 @@
   --text: #ddd;
   --accent: #4890fd;
 
-  --bgImage: center/cover url("/CSS/STScI-01M0JFFAD7SDCCNHWT7T7P3QX9.png");
+  --bgImage: center/cover url("https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/09/STScI-01M0JFFAD7SDCCNHWT7T7P3QX9.png");
 
   --font: 'Roboto', sans-serif;
   --header: 'Inconsolata', sans-serif;
