@@ -1,4 +1,16 @@
 [{
+  "pat54-extra": {
+    "Title": "Foggy Gradient",
+    "URL": "/DWLivePreviews/CSS/pat54-extra.css",
+    "Image": "/DWLivePreviews/Images/pat54-extra.png",
+    "Fonts": ["Roboto", "Doto"] 
+  },
+  "pat54-theme": {
+    "Title": "Deep Space",
+    "URL": "/DWLivePreviews/CSS/pat54-theme.css",
+    "Image": "/DWLivePreviews/Images/pat54-theme.png",
+    "Fonts": ["Roboto", "Inconsolata"] 
+  },
   "pat53-extra": {
     "Title": "Textured Rainbows",
     "URL": "/DWLivePreviews/CSS/pat53-extra.css",
