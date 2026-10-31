@@ -1,4 +1,16 @@
 [{
+  "pat55-extra": {
+    "Title": "Pumpkin Patch",
+    "URL": "/DWLivePreviews/CSS/pat55-extra.css",
+    "Image": "/DWLivePreviews/Images/pat55-extra.png",
+    "Fonts": ["Roboto", "Tapestry"] 
+  },
+  "pat55-theme": {
+    "Title": "Backing Gradient",
+    "URL": "/DWLivePreviews/CSS/pat55-theme.css",
+    "Image": "/DWLivePreviews/Images/pat55-theme.png",
+    "Fonts": ["Roboto", "Courgette"] 
+  },
   "pat54-extra": {
     "Title": "Foggy Gradient",
     "URL": "/DWLivePreviews/CSS/pat54-extra.css",
